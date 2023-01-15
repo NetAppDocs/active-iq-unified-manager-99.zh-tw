@@ -1,0 +1,54 @@
+---
+permalink: api-automation/concept-security-apis.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以使用安全性類別中的API來控制使用者對Active IQ Unified Manager 所選叢集物件的存取。您可以新增本機使用者或資料庫使用者。您也可以新增屬於驗證伺服器的遠端使用者或群組。根據指派給使用者的角色權限、他們可以在Unified Manager中管理儲存物件或檢視資料。 
+---
+= 管理使用者
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以在中使用API `security` 類別、可控制使用者對Active IQ Unified Manager 選定叢集物件的存取。您可以新增本機使用者或資料庫使用者。您也可以新增屬於驗證伺服器的遠端使用者或群組。根據指派給使用者的角色權限、他們可以在Unified Manager中管理儲存物件或檢視資料。
+
+[NOTE]
+====
+您必須擁有應用程式管理員角色才能執行這些作業。您也可以使用Unified Manager Web UI來設定這些設定。
+
+====
+下的API `security` 類別使用 `users` 參數、即使用者名稱、而非 `key` 參數做為使用者實體的唯一識別碼。
+
+[cols="3*"]
+|===
+| HTTP動詞 | 路徑 | 說明 
+
+
+ a| 
+`GET`
+
+`POST`
+ a| 
+`/security/users`
+
+`/security/users`
+ a| 
+您可以使用這些方法來取得使用者的詳細資料、或將新使用者新增至Unified Manager。
+
+您可以根據使用者類型、將特定角色新增至使用者。新增使用者時、您必須提供本機使用者、維護使用者和資料庫使用者的密碼。
+
+
+
+ a| 
+`GET`
+
+`PATCH`
+
+`DELETE`
+ a| 
+`+/security/users/{name}+`
+ a| 
+。 `GET` 方法可讓您擷取使用者的所有詳細資料、例如名稱、電子郵件地址、角色、授權類型。。 `PATCH` 方法可讓您更新詳細資料。。 `DELETE` 方法可讓您移除使用者。
+
+|===

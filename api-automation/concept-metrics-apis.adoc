@@ -1,0 +1,245 @@
+---
+permalink: api-automation/concept-metrics-apis.html 
+sidebar: sidebar 
+keywords:  
+summary: 利用VMware的支援功能、您可以在資料中心類別下、檢視叢集和儲存物件的效能資料。Active IQ Unified Manager這些API會擷取不同儲存物件的效能資料、例如叢集、節點、LUN、磁碟區、 集合體與儲存VM。 
+---
+= 檢視效能指標
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+在中提供一組API Active IQ Unified Manager `/datacenter` 此類別可讓您檢視叢集和資料中心儲存物件的效能資料。這些API會擷取不同儲存物件的效能資料、例如叢集、節點、LUN、磁碟區、 集合體與儲存VM。
+
+。 `/metrics` 和 `/analytics` API提供不同的效能指標檢視、您可以使用這些檢視、深入瞭解資料中心中下列儲存物件的不同層級詳細資料：
+
+* 叢集
+* 節點
+* 儲存VM
+* 集合體
+* 磁碟區
+* LUN
+
+
+下表列出兩者之間的比較 `/metrics` 和 `/analytics` API中所擷取效能資料的詳細資料。
+
+[cols="2*"]
+|===
+| 指標 | 分析 
+
+
+ a| 
+單一物件的效能詳細資料。例如、 `+/datacenter/cluster/clusters/{key}/metrics+` API要求將叢集金鑰輸入為 `path` 用於擷取該特定叢集的度量的參數。
+ a| 
+資料中心內多個相同類型物件的效能詳細資料。例如、 `/datacenter/cluster/clusters/analytics` API會擷取資料中心內所有叢集的集合度量。
+
+
+
+ a| 
+儲存物件的效能指標範例、以擷取所需的時間間隔參數為基礎。
+ a| 
+特定類型儲存物件在特定期間（72小時以上）的高層效能集合值。
+
+
+
+ a| 
+系統會擷取物件的基本詳細資料、例如節點或叢集的詳細資料。
+ a| 
+未擷取任何特定詳細資料。
+
+
+
+ a| 
+針對單一物件擷取一段時間內的累計計數器、例如最小值、最大值及平均效能值、例如讀取、寫入、總計、和其他計數器。例如、 `+/datacenter/cluster/nodes/{key}/metrics+` API會擷取節點的下列詳細資料（其中包括）：
+
+[listing]
+----
+ {
+      "iops": {
+        "local": {
+          "others": 100.53,
+          "read": 100.53,
+          "total": 100.53,
+          "write": 100.53
+        },
+        "others": 100.53,
+        "read": 100.53,
+        "total": 100.53,
+        "write": 100.53
+      },
+      "latency": {
+        "others": 100.53,
+        "read": 100.53,
+        "total": 100.53,
+        "write": 100.53
+      },
+      "performance_capacity": {
+        "available_iops_percent": 0,
+        "free_percent": 0,
+        "system_workload_percent": 0,
+        "used_percent": 0,
+        "user_workload_percent": 0
+      },
+      "throughput": {
+        "other": 100.53,
+        "read": 100.53,
+        "total": 100.53,
+        "write": 100.53
+      },
+---- a| 
+相同類型的所有物件都會顯示單一彙總值。例如、 `/datacenter/cluster/nodes/analytics` API會針對所有節點擷取下列值（包括其他值）：
+
+[listing]
+----
+ {
+      "iops": 2757.5723,
+      "latency": 0.8266,
+      "throughput": 13254.6992,
+      "utilization_percent": 58.6488,
+      "period": 72,
+      "performance_capacity": {
+        "used_percent": 63.5317,
+        "available_iops_percent": 60731.3086
+      },
+----
+
+
+ a| 
+時間範圍和範例資料是根據下列排程：資料的時間範圍。範例可以是1h、12h、1d、2D、3D、 15d、1W、1公尺、2公尺、3公尺、 6萬。如果範圍超過3天（72小時）、您會得到1小時的樣本、否則只有5分鐘的樣本。每個時間範圍的期間如下：
+
+* 1小時：最近一小時的指標取樣時間超過5分鐘。
+* 12小時：最近12小時內的指標取樣時間超過5分鐘。
+* 一維：最近一天的指標取樣時間超過5分鐘。
+* 2D：最近2天的測量數據取樣時間超過5分鐘。
+* 3D：最近3天內的指標取樣時間超過5分鐘。
+* 15d：最近15天內的指標、取樣時間超過1小時。
+* 1W：最近一週的指標取樣時間超過1小時。
+* 1M：最近一個月內的數據取樣時間超過1小時。
+* 2百萬：最近2個月的指標取樣時間超過1小時。
+* 3M：最近3個月的指標、取樣時間超過1小時。
+* 6個月：最近6個月的指標取樣時間超過1小時。
+
+
+可用值：1小時、12小時、一維、二維、三維、 15d、1W、1公尺、2公尺、3公尺、 6萬
+
+預設值：1小時
+ a| 
+超過72小時、即3天。計算此樣本的持續時間以ISO-8601標準格式表示。
+
+|===
+下表說明 `/metrics` 和 `/analytics` API詳細資料。
+
+[NOTE]
+====
+例如、這些API傳回的IOPS和效能指標是兩倍的值 `100.53`。不支援使用管路（|）和萬用字元（*）來篩選這些浮點值。
+
+====
+[cols="3*"]
+|===
+| HTTP Verb | 路徑 | 說明 
+
+
+ a| 
+`GET`
+ a| 
+`+/datacenter/cluster/clusters/{key}/metrics+`
+ a| 
+擷取叢集金鑰輸入參數所指定叢集的效能資料（範例和摘要）。傳回叢集金鑰和UUID、時間範圍、IOPS、處理量及取樣數目等資訊。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/clusters/analytics`
+ a| 
+擷取資料中心內所有叢集的高層級效能指標。您可以根據所需的條件篩選結果。會傳回彙總IOPS、處理量及收集期間（以小時為單位）等值。
+
+
+
+ a| 
+`GET`
+ a| 
+`+/datacenter/cluster/nodes/{key}/metrics+`
+ a| 
+擷取節點金鑰輸入參數所指定節點的效能資料（範例和摘要）。傳回的資訊包括節點UUID、時間範圍、IOPS摘要、處理量、延遲和效能、所收集的樣本數、以及使用百分比。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/nodes/analytics`
+ a| 
+擷取資料中心中所有節點的高層效能度量。您可以根據所需的條件篩選結果。會傳回節點和叢集金鑰等資訊、以及彙總IOPS、處理量和收集期間（以小時為單位）等值。
+
+
+
+ a| 
+`GET`
+ a| 
+`+/datacenter/storage/aggregates/{key}/metrics+`
+ a| 
+擷取Aggregate金鑰輸入參數所指定之Aggregate的效能資料（範例和摘要）。傳回的資訊包括時間範圍、IOPS摘要、延遲、處理量和效能容量、每個計數器所收集的樣本數、以及使用的百分比。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/aggregates/analytics`
+ a| 
+擷取資料中心中所有集合體的高層效能指標。您可以根據所需的條件篩選結果。會傳回諸如Aggregate和叢集金鑰等資訊、以及彙總IOPS、處理量和收集期間（以小時為單位）等值。
+
+
+
+ a| 
+`GET`
+ a| 
+`+/datacenter/storage/luns/{key}/metrics+`
+
+`+/datacenter/storage/volumes/{key}/metrics+`
+ a| 
+擷取LUN或LUN或Volume金鑰輸入參數所指定之檔案共用區（Volume）的效能資料（範例和摘要）。資訊、例如讀取、寫入和IOPS總計、延遲和處理量的最小、最大和平均摘要、 並傳回每個計數器所收集的樣本數。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/storage/luns/analytics`
+
+`/datacenter/storage/volumes/analytics`
+ a| 
+擷取資料中心內所有LUN或磁碟區的高層效能度量。您可以根據所需的條件篩選結果。系統會傳回儲存VM和叢集金鑰等資訊、以及彙總IOPS、處理量和收集期間（以小時為單位）等值。
+
+
+
+ a| 
+`GET`
+ a| 
+`+/datacenter/svm/svms/{key}/metrics+`
+ a| 
+擷取儲存VM金鑰輸入參數所指定之儲存VM的效能資料（範例和摘要）。每個支援的傳輸協定（例如）的IOPS摘要 `nvmf, fcp, iscsi`和 `nfs`會傳回處理量、延遲及所收集的樣本數目。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/svm/svms/analytics`
+ a| 
+擷取資料中心內所有儲存VM的高階效能指標。您可以根據所需的條件篩選結果。系統會傳回儲存VM UUID、彙總IOPS、延遲、處理量及收集期間（以小時為單位）等資訊。
+
+
+
+ a| 
+`GET`
+ a| 
+`/datacenter/cluster/licensing/licenses` `+/datacenter/cluster/licensing/licenses/{key}+`
+ a| 
+傳回資料中心叢集上安裝的授權詳細資料。您可以根據所需的條件篩選結果。傳回授權金鑰、叢集金鑰、到期日及授權範圍等資訊。您可以輸入授權金鑰、以擷取特定授權的詳細資料。
+
+|===

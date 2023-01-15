@@ -1,0 +1,479 @@
+---
+permalink: api-automation/concept-provisioning-luns.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVMs）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。 
+---
+= 資源配置LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用Active IQ Unified Manager 隨附的資源配置API、在儲存虛擬機器（SVM）上配置LUN。這項資源配置工作流程詳細說明在建立LUN之前、擷取SVM、效能服務層級和儲存效率原則金鑰的步驟。
+
+下圖說明LUN資源配置工作流程的步驟。
+
+image::../media/create-luns.gif[建立LUN]
+
+[NOTE]
+====
+此工作流程假設ONTAP 已將整個叢集新增至Unified Manager、而且已取得叢集金鑰。工作流程也假設叢集上已建立SVM。
+
+====
+. 如「驗證叢集上的SVM」工作流程主題所述、取得您要在其中建立LUN的SVM金鑰。
+. 執行下列API並從回應擷取金鑰、以取得Performance Service層級的金鑰。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+`/storage-provider/performance-service-levels`
+
+|===
+[NOTE]
+====
+您可以設定、擷取系統定義的效能服務層級詳細資料 `system_defined` 輸入參數至 `true`。從輸出中、取得要套用至LUN的Performance Service層級關鍵。
+
+====
+. 您也可以執行下列API並從回應擷取金鑰、以取得您要套用至LUN之儲存效率原則的儲存效率原則金鑰。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+`/storage-provider/storage-efficiency-policies`
+
+|===
+. 判斷是否已建立啟動器群組（igroup）、以授予您要建立之LUN目標的存取權。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+取得
+ a| 
+`/datacenter/protocols/san/igroups`  `+/datacenter/protocols/san/igroups/{key}+`
+
+|===
+您必須輸入參數值、以指出igroup有權存取的SVM。此外、如果您要查詢特定的igroup、請輸入igroup名稱（金鑰）作為輸入參數。
+
+. 在輸出中、如果您可以找到要授予存取權的igroup、請取得金鑰。否則請建立igroup。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+資料中心
+ a| 
+貼文
+ a| 
+`/datacenter/protocols/san/igroups`
+
+|===
+您必須輸入要建立的igroup詳細資料、做為輸入參數。這是同步呼叫、您可以在輸出中驗證igroup建立。發生錯誤時、會顯示一則訊息、供您疑難排解並重新執行API。
+
+. 建立LUN。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+`/storage-provider/luns`
+
+|===
+若要建立LUN、請確定您已將擷取的值新增為必要的輸入參數。
+
+[NOTE]
+====
+儲存效率原則是建立LUN的選用參數。
+
+====
+*範例Curl*
+
+您必須輸入要建立之LUN的所有詳細資料、做為輸入參數。
+
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/luns" -H "accept: application/json" -H
+    "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+    "{ \"name\": \"MigrationLunWithVol\", \"os_type\": \"windows\",
+    \"performance_service_level\": { \"key\": \"7873dc0d-0ee5-11ea-82d7-fa163ea0eb69\" },
+    \"space\": { \"size\": 1024000000 }, \"svm\": { \"key\":
+    \"333fbcfa-0ace-11ea-9d6d-00a09897cc15:type=vserver,uuid=4d462ec8-0f56-11ea-9d6d-00a09897cc15\"
+    }}"
+----
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證您所建立的LUN。
+
+. 使用查詢工作時傳回的工作物件金鑰來驗證LUN建立：
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+`+/management-server/jobs/{key}+`
+
+|===
+回應結束時、您會看到所建立LUN的金鑰。
+
+[listing]
+----
+    {
+      "name": "lunKey",
+      "value": "key": "f963839f-0f95-11ea-9963-00a098884af5:type=lun,uuid=71f3187e-bf19-4f34-ba34-b1736209b45a"
+    }
+ ],
+ "_links": {
+    "self": {
+      "href": "/api/management-server/jobs/fa7c856d29e2b80f%3A-8d3325d%3A16e9eb5ed6d%3A-548b"
+    }
+ }
+}
+----
+. 使用傳回的金鑰執行下列API、以驗證LUN的建立：
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+`+/storage-provider/luns/{key}+`
+
+|===
+* JSON*輸出範例*
+
+您可以看到的是POST方法 `/storage-provider/luns` 內部呼叫每個函數所需的所有API、並建立物件。例如、它會叫用 `/storage-provider/performance-service-levels/` 用於指派LUN效能服務層級的API。
+
+[listing]
+----
+{
+  "key": "f963839f-0f95-11ea-9963-00a098884af5:type=lun,uuid=71f3187e-bf19-4f34-ba34-b1736209b45a",
+  "name": "/vol/NSLM_VOL_LUN_1574753881051/LunForTesting1",
+  "uuid": "71f3187e-bf19-4f34-ba34-b1736209b45a",
+  "cluster": {
+    "uuid": "f963839f-0f95-11ea-9963-00a098884af5",
+    "key": "f963839f-0f95-11ea-9963-00a098884af5:type=cluster,uuid=f963839f-0f95-11ea-9963-00a098884af5",
+    "name": "sti2552-4451574693410",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/cluster/clusters/f963839f-0f95-11ea-9963-00a098884af5:type=cluster,uuid=f963839f-0f95-11ea-9963-00a098884af5"
+      }
+    }
+  },
+  "svm": {
+    "uuid": "7754a99c-101f-11ea-9963-00a098884af5",
+    "key": "f963839f-0f95-11ea-9963-00a098884af5:type=vserver,uuid=7754a99c-101f-11ea-9963-00a098884af5",
+    "name": "Testingsvm1",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/svm/svms/f963839f-0f95-11ea-9963-00a098884af5:type=vserver,uuid=7754a99c-101f-11ea-9963-00a098884af5"
+      }
+    }
+  },
+  "volume": {
+    "uuid": "961778bb-2be9-4b4a-b8da-57c7026e52ad",
+    "key": "f963839f-0f95-11ea-9963-00a098884af5:type=volume,uuid=961778bb-2be9-4b4a-b8da-57c7026e52ad",
+    "name": "NSLM_VOL_LUN_1574753881051",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/storage/volumes/f963839f-0f95-11ea-9963-00a098884af5:type=volume,uuid=961778bb-2be9-4b4a-b8da-57c7026e52ad"
+      }
+    }
+  },
+  "assigned_performance_service_level": {
+    "key": "861f6e4d-0c35-11ea-9d73-fa163e706bc4",
+    "name": "Value",
+    "peak_iops": 75,
+    "expected_iops": 75,
+    "_links": {
+      "self": {
+        "href": "/api/storage-provider/performance-service-levels/861f6e4d-0c35-11ea-9d73-fa163e706bc4"
+      }
+    }
+  },
+  "recommended_performance_service_level": {
+    "key": null,
+    "name": "Idle",
+    "peak_iops": null,
+    "expected_iops": null,
+    "_links": {}
+  },
+  "assigned_storage_efficiency_policy": {
+    "key": null,
+    "name": "Unassigned",
+    "_links": {}
+  },
+  "space": {
+    "size": 1024458752
+  },
+  "os_type": "linux",
+  "_links": {
+    "self": {
+      "href": "/api/storage-provider/luns/f963839f-0f95-11ea-9963-00a098884af5%3Atype%3Dlun%2Cuuid%3D71f3187e-bf19-4f34-ba34-b1736209b45a"
+    }
+  }
+}
+----
+
+
+== LUN建立或對應失敗的疑難排解步驟
+
+完成此工作流程後、您可能仍會看到LUN建立失敗。即使成功建立LUN、由於無法在您建立LUN的節點上使用SAN LIF或存取端點、因此使用igroup的LUN對應也可能失敗。如果發生故障、您會看到下列訊息：
+
+[listing]
+----
+The nodes <node_name> and <partner_node_name> have no LIFs configured with the iSCSI or FCP protocol for Vserver <server_name>. Use the access-endpoints API to create a LIF for the LUN.
+----
+請依照下列疑難排解步驟來解決此問題。
+
+. 在您嘗試建立LUN的SVM上、建立支援iSCSI/FCP傳輸協定的存取端點。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+貼文
+ a| 
+`/storage-provider/access-endpoints`
+
+|===
+*範例Curl*
+
+您必須輸入要建立的存取端點詳細資料、做為輸入參數。
+
+[NOTE]
+====
+請確定您已在輸入參數中新增 `address` 以指出LUN和的主節點 `ha_address` 以指出主節點的合作夥伴節點。當您執行此作業時、它會在主節點和合作夥伴節點上建立存取端點。
+
+====
+[listing]
+----
+curl -X POST "https://<hostname>/api/storage-provider/access-endpoints" -H "accept:
+    application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d "{ \"data_protocols\": [ \"iscsi\" ], \"ip\": {
+    \"address\": \"10.162.83.126\", \"ha_address\": \"10.142.83.126\", \"netmask\":
+    \"255.255.0.0\" }, \"lun\": { \"key\":
+    \"e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=lun,uuid=b8e0c1ae-0997-47c5-97d2-1677d3ec08ff\" },
+    \"name\": \"aep_example\" }"
+----
+. 使用Json輸出中傳回的工作物件金鑰查詢工作、以確認其已成功執行、可在SVM上新增存取端點、且已在SVM上啟用iSCSI/FCP服務。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+`+/management-server/jobs/{key}+`
+
+|===
+* JSON*輸出範例*
+
+在輸出結束時、您可以看到所建立的存取端點金鑰。在下列輸出中 `"name": "accessEndpointKey"` 值表示在LUN主節點上建立的存取端點、金鑰為該端點 `9c964258-14ef-11ea-95e2-00a098e32c28`。。 `"name": "accessEndpointHAKey"` 值表示在主節點的合作夥伴節點上建立的存取端點、其金鑰為 `9d347006-14ef-11ea-8760-00a098e3215f`。
+
+[listing]
+----
+  "job_results": [
+    {
+      "name": "accessEndpointKey",
+      "value": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=network_lif,lif_uuid=9c964258-14ef-11ea-95e2-00a098e32c28"
+    },
+    {
+      "name": "accessEndpointHAKey",
+      "value": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=network_lif,lif_uuid=9d347006-14ef-11ea-8760-00a098e3215f"
+    }
+  ],
+  "_links": {
+    "self": {
+      "href": "/api/management-server/jobs/71377eeea0b25633%3A-30a2dbfe%3A16ec620945d%3A-7f5a"
+    }
+  }
+}
+----
+. 修改LUN以更新igroup對應。如需工作流程修改的詳細資訊、請參閱「如何調整儲存工作負載」。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+修補程式
+ a| 
+`+/storage-provider/lun/{key}+`
+
+|===
+在輸入中、指定要用來更新LUN對應的igroup金鑰、以及LUN金鑰。
+
+*範例Curl*
+
+[listing]
+----
+curl -X PATCH "https://<hostname>/api/storage-provider/luns/e4f33f90-f75f-11e8-9ed9-00a098e3215f%3Atype%3Dlun%2Cuuid%3Db8e0c1ae-0997-47c5-97d2-1677d3ec08ff"
+-H "accept: application/json" -H "Content-Type: application/json" -H "Authorization: Basic <Base64EncodedCredentials>" -d
+"{ \"lun_maps\": [ { \"igroup\":
+{ \"key\": \"e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=igroup,uuid=d19ec2fa-fec7-11e8-b23d-00a098e32c28\" },
+\"logical_unit_number\": 3 } ]}"
+----
+Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證對應是否成功。
+
+. 使用LUN金鑰查詢以驗證LUN對應。
+
+
+[cols="3*"]
+|===
+| 類別 | HTTP動詞 | 路徑 
+
+
+ a| 
+儲存供應商
+ a| 
+取得
+ a| 
+`+/storage-provider/luns/{key}+`
+
+|===
+* JSON*輸出範例*
+
+在輸出中、您可以看到LUN已成功對應至igroup（金鑰 `d19ec2fa-fec7-11e8-b23d-00a098e32c28`）。
+
+[listing]
+----
+{
+  "key": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=lun,uuid=b8e0c1ae-0997-47c5-97d2-1677d3ec08ff",
+  "name": "/vol/NSLM_VOL_LUN_1575282642267/example_lun",
+  "uuid": "b8e0c1ae-0997-47c5-97d2-1677d3ec08ff",
+  "cluster": {
+    "uuid": "e4f33f90-f75f-11e8-9ed9-00a098e3215f",
+    "key": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=cluster,uuid=e4f33f90-f75f-11e8-9ed9-00a098e3215f",
+    "name": "umeng-aff220-01-02",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/cluster/clusters/e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=cluster,uuid=e4f33f90-f75f-11e8-9ed9-00a098e3215f"
+      }
+    }
+  },
+  "svm": {
+    "uuid": "97f47088-fa8e-11e8-9ed9-00a098e3215f",
+    "key": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=vserver,uuid=97f47088-fa8e-11e8-9ed9-00a098e3215f",
+    "name": "NSLM12_SVM_ritu",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/svm/svms/e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=vserver,uuid=97f47088-fa8e-11e8-9ed9-00a098e3215f"
+      }
+    }
+  },
+  "volume": {
+    "uuid": "a1e09503-a478-43a0-8117-d25491840263",
+    "key": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=volume,uuid=a1e09503-a478-43a0-8117-d25491840263",
+    "name": "NSLM_VOL_LUN_1575282642267",
+    "_links": {
+      "self": {
+        "href": "/api/datacenter/storage/volumes/e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=volume,uuid=a1e09503-a478-43a0-8117-d25491840263"
+      }
+    }
+  },
+  "lun_maps": [
+    {
+      "igroup": {
+        "uuid": "d19ec2fa-fec7-11e8-b23d-00a098e32c28",
+        "key": "e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=igroup,uuid=d19ec2fa-fec7-11e8-b23d-00a098e32c28",
+        "name": "lun55_igroup",
+        "_links": {
+          "self": {
+            "href": "/api/datacenter/protocols/san/igroups/e4f33f90-f75f-11e8-9ed9-00a098e3215f:type=igroup,uuid=d19ec2fa-fec7-11e8-b23d-00a098e32c28"
+          }
+        }
+      },
+      "logical_unit_number": 3
+    }
+  ],
+  "assigned_performance_service_level": {
+    "key": "cf2aacda-10df-11ea-bbe6-fa163e599489",
+    "name": "Value",
+    "peak_iops": 75,
+    "expected_iops": 75,
+    "_links": {
+      "self": {
+        "href": "/api/storage-provider/performance-service-levels/cf2aacda-10df-11ea-bbe6-fa163e599489"
+      }
+    }
+  },
+  "recommended_performance_service_level": {
+    "key": null,
+    "name": "Idle",
+    "peak_iops": null,
+    "expected_iops": null,
+    "_links": {}
+  },
+  "assigned_storage_efficiency_policy": {
+    "key": null,
+    "name": "Unassigned",
+    "_links": {}
+  },
+  "space": {
+    "size": 1073741824
+  },
+  "os_type": "linux",
+  "_links": {
+    "self": {
+      "href": "/api/storage-provider/luns/e4f33f90-f75f-11e8-9ed9-00a098e3215f%3Atype%3Dlun%2Cuuid%3Db8e0c1ae-0997-47c5-97d2-1677d3ec08ff"
+    }
+  }
+}
+----

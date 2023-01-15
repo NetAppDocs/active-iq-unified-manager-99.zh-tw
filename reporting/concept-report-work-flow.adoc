@@ -1,0 +1,16 @@
+---
+permalink: reporting/concept-report-work-flow.html 
+sidebar: sidebar 
+keywords:  
+summary: 說明報告工作流程的決策樹狀結構。 
+---
+= 報告工作流程
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+說明報告工作流程的決策樹狀結構。
+
+image::../media/reports-view-workflow.png[報告檢視工作流程]

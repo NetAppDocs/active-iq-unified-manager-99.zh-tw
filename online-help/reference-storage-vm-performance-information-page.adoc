@@ -1,0 +1,74 @@
+---
+permalink: online-help/reference-storage-vm-performance-information-page.html 
+sidebar: sidebar 
+keywords:  
+summary: 使用「Storage VM/Performance Information」（儲存VM/效能資訊）頁面可檢視SVM的已設定屬性清單。這些資訊可能有助於回答效能相關問題。 
+---
+= Storage VM/效能資訊頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+使用「Storage VM/Performance Information」（儲存VM/效能資訊）頁面可檢視SVM的已設定屬性清單。這些資訊可能有助於回答效能相關問題。
+
+
+
+== 儲存VM屬性
+
+* * IP位址*
++
+連線至此SVM的所有介面之IPv6位址。
+
+* * IPspace*
++
+此SVM所在的IPspace。
+
+* *網域名稱*
++
+連線至此SVM之介面的完整網域名稱（FQDN）。
+
+* *服務類型*
++
+SVM類型。
+
++
+可能的值包括：全叢集管理SVM的「管理」、IPspace叢集層級通訊的「系統」、SVM資料服務的「資料處理」、以及用於節點管理SVM的「節點」。
+
+* *容量（可用/總計）*
++
+SVM可用的總儲存容量（以GB為單位）、以及目前可用的儲存容量。
+
+* *叢集*
++
+SVM所屬的叢集名稱。您可以按一下名稱、在「叢集/效能資源管理器」頁面中顯示叢集詳細資料。
+
+* *磁碟區*
++
+SVM中的磁碟區數目。您可以按一下數字、在「效能/磁碟區庫存」頁面中顯示磁碟區。
+
+* *網路介面*
++
+SVM可用的網路介面數目。
+
+* *資料網路介面*
++
+SVM可用的資料網路介面數量和類型。
+
+* *允許的Volume類型*
++
+可在SVM上建立的磁碟區類型。
+
++
+SVM可包含一或多FlexVol 個支援區塊或FlexGroup 不支援區塊的磁碟區。
+
+* *允許的傳輸協定*
++
+此SVM可服務的所有傳輸協定清單。可用的傳輸協定包括FC/FCoE、iSCSI、HTTP、NDMP、NVMe、NFS和CIFS。
+
+* *連接埠集*
++
+如果為FCP或iSCSI傳輸協定定義、則為指派給此SVM的連接埠集。
+
+

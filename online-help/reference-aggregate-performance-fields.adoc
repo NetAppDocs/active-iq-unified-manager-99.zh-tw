@@ -1,0 +1,113 @@
+---
+permalink: online-help/reference-aggregate-performance-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 下列欄位可在效能：所有集合體檢視中使用、並可用於自訂檢視和報告中。 
+---
+= Aggregate效能欄位
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下列欄位可在效能：所有集合體檢視中使用、並可用於自訂檢視和報告中。
+
+* *狀態*
++
+沒有作用中事件的健全物件會顯示綠色核取符號圖示（image:../media/sev-normal-um60.png["事件嚴重性圖示–正常"]）。如果物件有作用中的事件、則事件指標圖示會識別事件嚴重性：嚴重事件為紅色（image:../media/sev-critical-um60.png["事件嚴重性的圖示–嚴重"]）、錯誤事件為橘色（image:../media/sev-error-um60.png["事件嚴重性圖示–錯誤"]）、且警告事件為黃色（image:../media/sev-warning-um60.png["事件嚴重性圖示–警告"]）。
+
+* * Aggregate *
++
+您可以按一下Aggregate名稱、瀏覽至該Aggregate的效能詳細資料頁面。
+
+* *類型*
++
+Aggregate類型：
+
++
+** HDD
+** 混合式
++
+結合HDD和SSD、但尚未啟用Flash Pool。
+
+** 混合式（Flash Pool）
++
+結合HDD和SSD、並已啟用Flash Pool。
+
+** SSD
+** SSD（FabricPool 僅限部分）
++
+結合SSD與雲端層
+
+** HDD（FabricPool 僅限驅動器）
++
+結合HDD與雲端層
+
+** VMDisk（SDS）
++
+虛擬機器內的虛擬磁碟
+
+** VMDisk（FabricPool VMware）
++
+結合虛擬磁碟與雲端層
+
+** LUN FlexArray （僅限部分）
+
+
+* * 延遲 *
++
+集合體上所有I/O要求的平均回應時間、以毫秒為單位。
+
+* * IOPS *
++
+集合體上每秒的輸入/輸出作業。
+
+* * MB/s *
++
+集合體上的處理量、以每秒MB為單位。
+
+* *使用的效能容量*
++
+集合體使用的效能容量百分比。
+
+* *使用率*
++
+目前使用的Aggregate磁碟百分比。
+
+* *可用的IOPS *
++
+此Aggregate目前可用於（可用）額外工作負載的每秒輸入/輸出作業數。
+
+* *可用容量*
++
+此Aggregate的未使用儲存容量（以GB為單位）。
+
+* *總容量*
++
+此Aggregate的總儲存容量（以GB為單位）。
+
+* *非使用中資料報告*
++
+此Aggregate上的非作用中資料報告功能是啟用還是停用。啟用時、此集合體上的磁碟區會在「Performance：All Volumes」（效能：所有磁碟區）檢視中顯示冷資料量。
+
++
+當版本的資訊不支援非作用中的資料報告時、此欄位的值為「N/A」ONTAP 。
+
+* *叢集*
++
+集合所屬的叢集。您可以按一下叢集名稱、瀏覽至該叢集的詳細資料頁面。
+
+* *叢集FQDN
++
+叢集的完整網域名稱（FQDN）。
+
+* *節點*
++
+集合體所屬的節點。您可以按一下節點名稱、瀏覽至該節點的詳細資料頁面。
+
+* *臨界值原則*
++
+此儲存物件上作用中的使用者定義效能臨界值原則或原則。您可以將游標放在含有省略符號（...）的原則名稱上、以檢視完整原則名稱或指派的原則名稱清單。「指派效能臨界值原則」*和「*清除效能臨界值原則*」按鈕會維持停用狀態、直到您按一下最左側的核取方塊來選取一或多個物件為止。
+
+

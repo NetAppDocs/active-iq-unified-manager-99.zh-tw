@@ -1,0 +1,44 @@
+---
+permalink: install-linux/task-manually-configuring-the-mysql-repository.html 
+sidebar: sidebar 
+keywords: Data Center Manager 
+summary: 如果您安裝Unified Manager的系統無法存取MySQL Community Edition儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。 
+---
+= 手動設定MySQL儲存庫
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+如果您安裝Unified Manager的系統無法存取MySQL Community Edition儲存庫、則必須手動下載並設定儲存庫、才能成功安裝。
+
+
+
+== 關於這項工作
+
+MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
+
+[NOTE]
+====
+如果系統沒有網際網路連線、此工作可能會失敗。如果您安裝Unified Manager的系統無法存取網際網路、請參閱MySQL文件。
+
+====
+
+
+== 步驟
+
+. 下載適合您安裝的MySQL儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載： `+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+` 若為版本8、請從以下網址下載： `+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
+. 設定MySQL儲存庫： `yum install mysql80-community-release-<version>.noarch.rpm`
+
+
+
+
+== 完成後
+
+對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有Java-11-OpenJDK、p7zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：
+
+[listing]
+----
+# sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
+----

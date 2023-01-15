@@ -1,0 +1,92 @@
+---
+permalink: online-help/reference-svm-health-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 下列欄位可在「健全狀況：所有儲存VM」檢視中使用、並可在自訂檢視和報告中使用。 
+---
+= SVM健全狀況欄位
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下列欄位可在「健全狀況：所有儲存VM」檢視中使用、並可在自訂檢視和報告中使用。
+
+* *狀態*
++
+SVM的目前狀態。狀態可以是「Critical」（重大）（image:../media/sev-critical-um60.png["事件嚴重性的圖示–嚴重"]）、錯誤（image:../media/sev-error-um60.png["事件嚴重性圖示–錯誤"]）、警告（image:../media/sev-warning-um60.png["事件嚴重性圖示–警告"]）或正常（image:../media/sev-normal-um60.png["事件嚴重性圖示–正常"]）。
+
+* *儲存VM*
++
+SVM的名稱。
+
+* *州*
++
+SVM的目前管理狀態。狀態可以是執行、停止、啟動或停止。
+
+* *允許的Volume類型*
++
+可在SVM中建立的磁碟區類型。類型可以FlexVol 是「不可靠」或「FlexVol / FlexGroup」。
+
+* *允許的傳輸協定*
++
+可在SVM上設定的傳輸協定類型。可用的傳輸協定包括FC/FCoE、iSCSI、HTTP、NDMP、NVMe、NFS和CIFS。
+
+* *可用的資料容量*
++
+SVM中所有磁碟區的可用資料容量。
+
+* *總資料容量*
++
+SVM中所有磁碟區的總資料容量。
+
+* *根磁碟區*
++
+SVM根Volume的名稱。
+
+* * NIS狀態*
++
+網路資訊服務（NIS）的狀態。狀態可以是「已啟用」、「已停用」或「未設定」。
+
+* * NIS網域*
++
+NIS網域名稱。當NIS伺服器已停用或未設定時、此欄為空白。
+
+* * DNS狀態*
++
+網域名稱系統（DNS）的狀態。狀態可以是「已啟用」、「已停用」或「未設定」。
+
+* * DNS網域*
++
+DNS網域名稱。
+
+* *保護角色*
++
+儲存VM的保護狀態。角色可以是受保護、無保護或目的地。
+
+* *名稱服務交換器*
++
+從主機收集的資訊類型。可能的值包括檔案、LDAP或NIS。
+
+* * LDAP已啟用*
++
+是否已啟用LDAP傳輸協定。
+
+* *允許的最大磁碟區*
++
+可在SVM上設定的最大允許磁碟區數。
+
+* * Volume Count*
++
+SVM所包含的磁碟區數目。
+
+* *叢集*
++
+SVM所屬的叢集名稱。
+
+* *叢集FQDN
++
+叢集的完整網域名稱（FQDN）。
+
+

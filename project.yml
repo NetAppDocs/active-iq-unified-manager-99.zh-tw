@@ -1,0 +1,86 @@
+---
+settings:
+  name: Active IQ Unified Manager 9.9
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  versions:
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-99"
+    version-number: '9.9'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-98"
+    version-number: '9.8'
+  - name: Unified Manager
+    url: "/active-iq-unified-manager-97"
+    version-number: '9.7'
+  - name: Unified Manager
+    url: "/oncommand-unified-manager-95"
+    version-number: '9.5'
+  langs: zh-tw,us-en,ja-jp,zh-cn,ko-kr,fr-fr,de-de
+sidebar:
+  entries:
+  - title: 部分9.9文件Active IQ Unified Manager
+    url: "/index.html"
+  - title: 版本資訊
+    url: "/release-notes.html"
+  - title: 開始使用
+    entries:
+    - title: VMware vSphere的快速入門安裝
+      url: "/qsg-vapp.html"
+    - title: Linux快速入門安裝
+      url: "/qsg-linux.html"
+    - title: Windows快速入門安裝
+      url: "/qsg-windows.html"
+  - section: install-vapp
+  - section: install-linux
+  - section: install-windows
+  - section: config
+  - section: online-help
+  - section: performance-checker
+  - section: health-checker
+  - section: data-protection
+  - section: reporting
+  - section: api-automation
+  - title: 法律聲明
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: 開始使用
+    links:
+    - title: 版本資訊
+      url: release-notes.html
+    - title: VMware vSphere的快速入門安裝
+      url: qsg-vapp.html
+    - title: Linux快速入門安裝
+      url: qsg-linux.html
+    - title: Windows快速入門安裝
+      url: qsg-windows.html
+  - title: 安裝Configure Unified Manager
+    links:
+    - title: 在VMware vSphere系統上安裝升級
+      url: install-vapp/concept-requirements-for-installing-unified-manager.html
+    - title: 在Linux系統上安裝升級
+      url: install-linux/concept-requirements-for-installing-unified-manager.html
+    - title: 在Windows系統上安裝升級
+      url: install-windows/concept-requirements-for-installing-unified-manager.html
+    - title: 設定Unified Manager
+      url: config/concept-configuring-unified-manager.html
+  - title: 效能監控
+    links:
+    - title: 效能臨界值
+      url: performance-checker/concept-managing-performance-thresholds.html
+    - title: 叢集效能
+      url: performance-checker/concept-monitoring-cluster-performance-from-the-dashboard.html
+    - title: QoS原則群組
+      url: performance-checker/concept-managing-performance-using-qos-policy-group-information.html
+  - title: 更多資源
+    links:
+    - title: Unified Manager影片
+      url: https://www.youtube.com/playlist?list=PLdXI3bZJEw7mp3jFSg0IJgo3oeDQRY-Gl
+    - title: Unified Manager部落格
+      url: https://www.netapp.com/blog/#q=active%20iq%20unified%20manager&t=Blogs&sort=%40publish_date_mktg%20descending&layout=card&f:@facet_language_mktg=[English]
+    - title: 最新版Active IQ Unified Manager 的支援文件
+      url: https://docs.netapp.com/us-en/active-iq-unified-manager/index.html

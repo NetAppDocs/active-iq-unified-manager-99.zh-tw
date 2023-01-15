@@ -1,0 +1,30 @@
+---
+permalink: online-help/reference-annotate-svm-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: 「Annotate Storage VM」對話方塊可讓您手動為儲存物件加上註釋。您可以選取單一SVM或多個SVM、然後從現有的註釋清單中、以特定的值配對進行註釋。 
+---
+= 註解SVM對話方塊
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「Annotate Storage VM」對話方塊可讓您手動為儲存物件加上註釋。您可以選取單一SVM或多個SVM、然後從現有的註釋清單中、以特定的值配對進行註釋。
+
+您必須具有應用程式管理員或儲存管理員角色。
+
+* *註釋=值配對*
++
+可讓您選取所選SVM所需的註釋。
+
+* *適用*
++
+將選取的註釋套用至SVM。
+
+* *取消*
++
+關閉「Annotate Storage VM」對話方塊、而不儲存變更。
+
+

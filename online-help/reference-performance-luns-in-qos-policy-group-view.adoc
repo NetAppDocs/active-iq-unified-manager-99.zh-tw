@@ -1,0 +1,24 @@
+---
+permalink: online-help/reference-performance-luns-in-qos-policy-group-view.html 
+sidebar: sidebar 
+keywords:  
+summary: QoS原則群組檢視中的效能：LUN會顯示每個已指派QoS原則之磁碟區的效能事件、資料和組態資訊總覽。這包括傳統的QoS原則、調適性QoS原則、以及由NetApp服務層級管理程式（SLM\）指派的QoS原則。 
+---
+= 效能：QoS原則群組檢視中的LUN
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+QoS原則群組檢視中的效能：LUN會顯示每個已指派QoS原則之磁碟區的效能事件、資料和組態資訊總覽。這包括傳統的QoS原則、調適性QoS原則、以及由NetApp服務層級管理程式（SLM)指派的QoS原則。
+
+依預設、檢視頁面中的物件會根據事件嚴重度排序。具有重大事件的物件會先列出、而具有警告事件的物件則會列在第二。這可立即提供必須解決的問題視覺化指示。
+
+頁面頂端的控制項可讓您選取特定檢視（如健全狀況、效能、容量等）、執行搜尋以尋找特定物件、建立及套用篩選條件、以縮小顯示資料的清單、新增/移除/重新排序頁面上的欄、並將頁面上的資料匯出至 `.csv`、 `.pdf`或 `.xlsx` 檔案：自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。
+
+您可以使用*指派效能臨界值原則*和*清除效能臨界值原則*按鈕、將效能臨界值原則指派給物件詳細目錄頁面上的任何物件、或清除其臨界值原則。
+
+若要分析特定物件的延遲和處理量、請按一下「More（更多）」圖示 image:../media/more-icon.gif[""]然後*分析工作負載*、即可在「工作負載分析」頁面上檢視效能與容量圖表。
+
+請參閱 xref:reference-lun-performance-fields.adoc[LUN效能欄位] 以取得此頁面上所有欄位的說明。

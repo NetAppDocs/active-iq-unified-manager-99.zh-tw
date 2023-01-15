@@ -1,0 +1,94 @@
+---
+permalink: reporting/task-creating-a-report-to-view-aggregates-that-have-the-most-available-iops.html 
+sidebar: sidebar 
+keywords:  
+summary: 此報告顯示哪些集合體的每個集合體類型的可用IOPS最高、您可以在這些集合體上配置新的工作負載。 
+---
+= 建立報告以檢視具有最大可用IOPS的集合體
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+此報告顯示哪些集合體的每個集合體類型的可用IOPS最高、您可以在這些集合體上配置新的工作負載。
+
+
+
+== 開始之前
+
+* 您必須具有應用程式管理員或儲存管理員角色。
+
+
+
+
+== 關於這項工作
+
+請使用下列步驟開啟健全狀況：「所有磁碟區」檢視、在Excel下載檢視、建立可用的容量圖表、上傳自訂的Excel檔案、以及排程最終報告。
+
+
+
+== 步驟
+
+. 在左導覽窗格中、按一下「*儲存設備*>* Aggregate *」。
+. 從「*檢視*」下拉式清單中選取「*效能：所有集合體*」。
+. 選取*顯示/隱藏*以顯示 `Available IOPS` 欄位並隱藏 `Cluster FQDN`、 `Inactive Data Reporting`和 `Threshold Policy` 欄位。
+. 拖放 `Available IOPS` 和 `Free Capacity` 旁邊的欄 `Type` 欄位。
+. 命名及儲存自訂檢視 `Available IOPS Per Aggr`。
+. 選擇*報告*>*下載Excel *。
++
+image::../media/download-excel-menu.png[下載Excel功能表]
+
++
+視瀏覽器而定、您可能需要按一下*確定*來儲存檔案。
+
+. 如有需要、請按一下*啟用編輯*。
+. 在Excel中開啟下載的檔案。
+. 在上 `data` 工作表中、按一下工作表左上角的小三角、即可選取整個工作表。
+. 在*資料*功能區上、從選取*排序* `Sort & Filter` 區域。
+. 設定下列排序層級：
++
+.. 指定*排序依據* AS `Available IOPS (IOPS)`*排序依據* AS `Cell Values`和*訂單* AS `Largest to Smallest`。
+.. 按一下*新增層級*。
+.. 指定*排序依據* AS `Type`*排序依據* AS `Cell Values`和*訂單* AS `Z to A`。
+.. 按一下*新增層級*。
+.. 指定*排序依據* AS `Free Capacity (GB)`*排序依據* AS `Cell Values`和*訂單* AS `Largest to Smallest`。
+.. 按一下「*確定*」。
+
+
+. 儲存並關閉Excel檔案。
+. 在Unified Manager中、選取* Reports*>*上傳Excel *。
++
+[NOTE]
+====
+請確定您的檢視方式與下載Excel檔案的位置相同。
+
+====
+. 在此情況下、請選取您已修改的Excel檔案 `performance-aggregates-<date>.xlsx`。
+. 按一下「*開啟*」。
+. 按一下*提交*。
++
+「*報告*>*上傳Excel *」功能表項目旁邊會出現核取符號。
+
++
+image::../media/upload-excel.png[上傳Excel]
+
+. 按一下*排程報告*。
+. 按一下「*新增排程*」將新列新增至「*報告排程*」頁面、以便定義新報告的排程特性。
+. 輸入報告排程的名稱並填寫其他報告欄位、然後按一下核取符號（image:../media/blue-check.gif[""]）。
++
+[NOTE]
+====
+選取報告的* XLSX*格式。
+
+====
++
+報告會立即以測試形式傳送。之後、報告會以電子郵件產生並傳送給使用指定頻率列出的收件者。
+
+
+
+
+
+== 完成後
+
+根據報告中顯示的結果、您可能想要在可用IOPS最高的集合體上配置新的工作負載。

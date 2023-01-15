@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-performance-qos-policy-groups-view.html 
+sidebar: sidebar 
+keywords:  
+summary: QoS原則群組檢視會顯示Unified Manager所監控叢集上可用的QoS原則群組。這包括傳統的QoS原則、調適性QoS原則、以及使用效能服務層級指派的QoS原則。 
+---
+= 效能：QoS原則群組檢視
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+QoS原則群組檢視會顯示Unified Manager所監控叢集上可用的QoS原則群組。這包括傳統的QoS原則、調適性QoS原則、以及使用效能服務層級指派的QoS原則。
+
+頁面頂端的控制項可讓您根據您感興趣的QoS原則類型來選取特定檢視、執行搜尋以尋找特定物件、建立及套用篩選條件以縮小顯示資料的清單、新增/移除/重新排序頁面上的欄、並將頁面上的資料匯出至 `.csv` 或 `.pdf` 檔案：
+
+自訂頁面之後、您可以將結果儲存為自訂檢視、然後排程定期產生此資料的報告、並以電子郵件寄送。
+
+請參閱 xref:reference-qos-policy-group-fields.adoc[QoS原則群組欄位] 以取得此頁面上所有欄位的說明。

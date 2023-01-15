@@ -1,0 +1,58 @@
+---
+permalink: qsg-linux.html 
+sidebar: sidebar 
+keywords: quick start guide, getting started, QSG, Linux QSG, RHEL QSG, quick installation 
+summary: Linux平台上的Unified Manager快速入門指南。 
+---
+= Linux安裝的快速入門指示
+:allow-uri-read: 
+
+
+
+
+== 系統需求
+
+* 作業系統：Red Hat Enterprise Linux和CentOS 7.x與8.x版、以x86_64架構為基礎、安裝時使用OS安裝程式「軟體選擇」選項中的「伺服器搭配GUI」基礎環境
+* RAM：12 GB、CPU：總共9572 MHz
+* 可用磁碟空間：在/opt/NetApp/data目錄中有100 GB的磁碟空間、在根分割區中有50 GB的磁碟空間。對於個別掛載的/opt和/var/log目錄、請確定/opt有15 GB、/var/log/log有16 GB、而/tmps有10 GB可用空間
+
+
+如需詳細的系統需求、以及在安全站台安裝產品的相關資訊、請參閱 link:./install-linux/concept-requirements-for-installing-unified-manager.html["安裝Unified Manager的需求"] 和 link:http://mysupport.netapp.com/matrix["互通性對照表"]。
+
+
+
+== 安裝Active IQ Unified Manager
+
+
+
+=== 下載安裝程式
+
+. 下載 `ActiveIQUnifiedManager-<version>.zip` 安裝套件：
+. 在您下載安裝檔案的目錄中、執行：
+
+
+`# unzip ActiveIQUnifiedManager-<version>.zip`
+
+
+
+=== 驗證儲存庫組態
+
+設定Red Hat Enterprise Linux或CentOS儲存庫的程序是站台專屬的。您可以使用 `pre_install_check.sh` 安裝套件中隨附的指令碼、用於驗證作業系統的組態。如果您的系統已連線至網際網路、您會自動收到設定Red Hat Enterprise Linux或CentOS儲存庫的指示。
+
+`# sudo ./pre_install_check.sh`
+
+
+
+=== 安裝Unified Manager
+
+Unified Manager使用 `yum` 安裝軟體及任何相依軟體的公用程式。由於Red Hat Enterprise Linux或CentOS的映像各不相同、因此安裝的套件取決於映像中的軟體。。 `yum` 公用程式會決定要安裝的相依軟體套件。如果您需要有關相依軟體套件的詳細資訊、請參閱 link:./install-linux/reference-red-hat-and-centos-software-and-installation-requirements.html["Linux軟體與安裝需求"]。
+
+若要安裝Unified Manager、請以root使用者身分或使用執行下列命令 `sudo`，從解壓縮安裝檔案的目錄中：
+
+`# yum install netapp-um<version>.x86_64.rpm`
+
+或
+
+`% sudo yum install netapp-um<version>.x86_64.rpm`
+
+安裝結束時、會顯示連線至Unified Manager Web UI的資訊。如果您無法連線至Web UI、請參閱 `README` 軟體隨附的檔案、以取得連接埠443限制的詳細資訊。

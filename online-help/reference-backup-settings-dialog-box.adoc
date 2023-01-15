@@ -1,0 +1,83 @@
+---
+permalink: online-help/reference-backup-settings-dialog-box.html 
+sidebar: sidebar 
+keywords:  
+summary: 「備份設定」對話方塊可用來設定MySQL和NetApp Snapshot備份的設定。根據所設定的備份、相關欄位會顯示在備份設定對話方塊中。對於MySQL資料庫備份、您可以定義所選Active IQ Unified Manager 的還原執行個體的備份排程、保留計數和備份路徑。 
+---
+= 備份設定對話方塊
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+「備份設定」對話方塊可用來設定MySQL和NetApp Snapshot備份的設定。根據所設定的備份、相關欄位會顯示在備份設定對話方塊中。對於MySQL資料庫備份、您可以定義所選Active IQ Unified Manager 的還原執行個體的備份排程、保留計數和備份路徑。
+
+您可以變更下列資料庫備份設定：
+
+* *叢集*
++
+您應該提供要託管Unified Manager資料的儲存系統叢集管理IP。
+
+* * Volume *
++
+您應該提供含有專屬LUN的Volume名稱、以裝載Unified Manager資料。
+
+* *儲存VM*
++
+您應該提供磁碟區所在的儲存VM名稱、其中包含用於裝載Unified Manager資料的專屬LUN。
+
+* * LUN *
++
+當備份類型為NetApp Snapshot時、您應該提供裝載Unified Manager資料的LUN名稱。
+
+* *掛載路徑*
++
+使用MySQL資料庫傾印備份方法時、此欄位會指定儲存備份檔案的位置路徑。使用Snapshot備份方法時、此位置會顯示要儲存備份的叢集、儲存VM和Volume。
+
++
+下表指定不同作業系統的備份路徑格式和預設位置：
+
++
+[cols="2*"]
+|===
+| 主機作業系統 | 備份路徑格式 
+
+
+ a| 
+虛擬應用裝置
+ a| 
+`/opt/netapp/data/ocum-backup`
+
+
+
+ a| 
+Red Hat Enterprise Linux或CentOS Linux
+ a| 
+`/data/ocum-backup`
+
+
+
+ a| 
+Microsoft Windows
+ a| 
+在Windows情況下、您需要提供掛載路徑。例如、如果掛載路徑是「D」磁碟機、則應提供如下的掛載路徑 `D:`
+
+|===
+* *保留數*
++
+指定Unified Manager保留的最大備份數。預設值為10。
+
+* *每日排程*
++
+以時間指定每日備份排程。
+
+* *每週排程*
++
+指定每週備份排程的日期和時間。
+
+* *無*
++
+指定不會建立備份。
+
+

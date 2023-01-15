@@ -1,0 +1,31 @@
+---
+permalink: online-help/concept-storage-vm-performance-explorer-page.html 
+sidebar: sidebar 
+keywords:  
+summary: Storage VM/Performance Explorer頁面提供叢集中所有儲存虛擬機器（SVMs）的詳細效能總覽。 
+---
+= Storage VM/Performance Explorer頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Storage VM/Performance Explorer頁面提供叢集中所有儲存虛擬機器（SVM）的詳細效能總覽。
+
+此頁面可讓您追蹤及比較特定時間段內的儲存VM效能、協助您疑難排解及微調SVM效能。
+
+使用檢視與比較功能、您可以將此儲存VM的效能與下列項目進行比較：
+
+* 相同叢集上的其他SVM
+* 此SVM上的磁碟區
+* 此SVM上的網路介面
+
+
+「Storage VM/效能」頁面可讓您：
+
+* 檢視臨界值相關問題及其詳細資料
+* 追蹤並比較SVM效能資料
+* 調查並疑難排解臨界值相關問題
+* 調查並疑難排解效能問題
+

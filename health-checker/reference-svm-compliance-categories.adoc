@@ -1,0 +1,107 @@
+---
+permalink: health-checker/reference-svm-compliance-categories.html 
+sidebar: sidebar 
+keywords: storage VM compliance 
+summary: 本表說明Unified Manager評估的儲存虛擬機器（SVM）安全性法規遵循條件、NetApp建議、以及此參數是否會影響SVM的整體判斷是否符合申訴。 
+---
+= SVM法規遵循類別
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+本表說明Unified Manager評估的儲存虛擬機器（SVM）安全性法規遵循條件、NetApp建議、以及此參數是否影響SVM的整體判斷是否符合申訴。
+
+[cols="4*"]
+|===
+| 參數 | 說明 | 建議 | 影響SVM法規遵循 
+
+
+ a| 
+稽核記錄
+ a| 
+表示稽核記錄已啟用或停用。
+ a| 
+已啟用
+ a| 
+是的
+
+
+
+ a| 
+不安全的SSH設定
+ a| 
+指出SSH是否使用不安全的密碼、例如開頭為的密碼 `cbc*`。
+ a| 
+否
+ a| 
+是的
+
+
+
+ a| 
+登入橫幅
+ a| 
+指出是否為存取系統上SVM的使用者啟用或停用登入橫幅。
+ a| 
+已啟用
+ a| 
+是的
+
+
+
+ a| 
+LDAP加密
+ a| 
+指出LDAP加密是啟用還是停用。
+ a| 
+已啟用
+ a| 
+否
+
+
+
+ a| 
+NTLM驗證
+ a| 
+表示是否已啟用或停用NTLM驗證。
+ a| 
+已啟用
+ a| 
+否
+
+
+
+ a| 
+LDAP有效負載簽署
+ a| 
+指出LDAP有效負載簽署是否已啟用或停用。
+ a| 
+已啟用
+ a| 
+否
+
+
+
+ a| 
+CHAP設定
+ a| 
+指出CHAP是否已啟用或停用。
+ a| 
+已啟用
+ a| 
+否
+
+
+
+ a| 
+Kerberos V5
+ a| 
+指出是否已啟用或停用Kerberos V5驗證。
+ a| 
+已啟用
+ a| 
+否
+
+|===

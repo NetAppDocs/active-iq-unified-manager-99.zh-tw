@@ -1,0 +1,20 @@
+---
+permalink: online-help/reference-assign-performance-threshold-policy-page-opm.html 
+sidebar: sidebar 
+keywords:  
+summary: 您可以使用「指派效能臨界值原則」頁面、將效能臨界值原則指派給一或多個儲存物件。 
+---
+= 「指派效能臨界值原則」頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+您可以使用「指派效能臨界值原則」頁面、將效能臨界值原則指派給一或多個儲存物件。
+
+原則清單只會填入對所選儲存物件類型有效的原則。
+
+選取要套用至物件的原則、然後按一下*套用原則*。
+
+在某些情況FlexGroup 下、當您嘗試套用原則時、可能會傳回錯誤訊息、例如在將組合原則套用至某個物件時、第二個計數器會包含節點或Aggregate物件。由於可在多個節點和集合體之間散佈整個過程、因此不允許執行此作業FlexGroup 。

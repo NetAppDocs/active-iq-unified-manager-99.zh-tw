@@ -1,0 +1,70 @@
+---
+permalink: api-automation/concept-events-api.html 
+sidebar: sidebar 
+keywords:  
+summary: 管理伺服器類別下的事件和系統API可讓您擷取資料中心內監控叢集所產生的事件、Active IQ Unified Manager 並分別在您的支援環境中檢視執行個體詳細資料。 
+---
+= 檢視事件和系統詳細資料
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+。 `events` 和 `system` 的API `management-server` 類別可讓您擷取資料中心內受監控叢集所產生的事件、Active IQ Unified Manager 並分別在您的支援環境中檢視執行個體詳細資料。
+
+
+
+== 檢視事件
+
+使用 `/management-server/events` API、您可以查詢資料中心內的事件、包括歷史資料。使用內建的篩選器、例如名稱、影響層級、影響區域、嚴重性、狀態、資源名稱和資源類型、以檢視特定事件。資源類型和區域參數會傳回事件發生所在儲存物件的相關資訊、而影響區域會傳回事件發生問題的相關資訊、例如可用度、容量、組態、安全性、保護與效能：
+
+您也可以使用事件金鑰查詢特定事件的詳細資料、並在資源上執行下一組作業。
+
+[cols="4*"]
+|===
+| 類別 | HTTP動詞 | 路徑 | 說明 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+`/management-server/events`
+ a| 
+回應本文包含該資料中心所查詢事件的事件詳細資料。
+
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+`+/management-server/events/{key}+`
+ a| 
+如果您要查詢特定事件、請執行此API。輸入工作的事件金鑰以檢視詳細資料。回應本文包含該事件的詳細資料。
+
+|===
+
+
+== 檢視系統詳細資料
+
+使用 `/management-server/system` API、您可以查詢Unified Manager環境的執行個體專屬詳細資料。API會傳回產品與服務的相關資訊、例如系統上安裝的Unified Manager版本、UUID、廠商名稱、主機作業系統及名稱、 說明、以及Unified Manager執行個體上執行的服務狀態。
+
+[cols="4*"]
+|===
+| 類別 | HTTP動詞 | 路徑 | 說明 
+
+
+ a| 
+管理伺服器
+ a| 
+取得
+ a| 
+`/management-server/system`
+ a| 
+執行此API不需要輸入參數。預設會傳回目前Unified Manager執行個體的系統詳細資料。
+
+|===

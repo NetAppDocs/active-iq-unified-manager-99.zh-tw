@@ -1,0 +1,146 @@
+---
+permalink: online-help/reference-aggregate-capacity-fields.html 
+sidebar: sidebar 
+keywords:  
+summary: 下列欄位可在Aggregate Capacity and利用率報告中使用、並可用於自訂檢視和報告中。 
+---
+= Aggregate cap處理 量欄位
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+下列欄位可在Aggregate Capacity and利用率報告中使用、並可用於自訂檢視和報告中。
+
+* * Aggregate *
++
+Aggregate名稱。
+
+* *每日成長率%*
++
+集合體中每24小時發生的成長率。
+
+* *天滿*
++
+總計達到完整容量之前的預估剩餘天數。
+
+* *過度使用容量%*
++
+總和過度使用百分比。
+
+* *可用資料%*
++
+可用資料容量的百分比。
+
+* *可用的資料容量*
++
+可用的資料容量。
+
+* *已用資料%*
++
+以百分比表示的已用資料容量。
+
+* *已用資料容量*
++
+已用資料容量。
+
+* *總資料容量*
++
+總資料容量（已使用及可用）。
+
+* *使用的邏輯空間*
++
+儲存在Aggregate上的資料實際大小、而不需運用ONTAP 使用效益技術所節省的成本。
+
+* * Snapshot保留可用%*
++
+Snapshot複本可用空間的百分比。
+
+* * Snapshot保留可用容量*
++
+Snapshot複本的可用空間量。
+
+* * Snapshot保留已使用%*
++
+Snapshot複本從Snapshot保留區使用的空間量、以百分比表示。
+
+* * Snapshot保留已用容量*
++
+快照保留區中的快照複本所使用的空間量。
+
+* * Snapshot保留總容量*
++
+集合體的快照保留總容量。
+
+* *使用的雲端層空間*
++
+目前在雲端層使用的資料容量。
+
+* *雲端層*
++
+雲端層物件存放區的名稱、是ONTAP 由下列項目所建立的。
+
+* *州*
++
+Aggregate的目前狀態。
+
+* *類型*
++
+Aggregate類型：
+
++
+** HDD
+** 混合式
++
+結合HDD和SSD、但尚未啟用Flash Pool。
+
+** 混合式（Flash Pool）
++
+結合HDD和SSD、並已啟用Flash Pool。
+
+** SSD
+** SSD（FabricPool 僅限部分）
++
+結合SSD與雲端層
+
+** HDD（FabricPool 僅限驅動器）
++
+結合HDD與雲端層
+
+** VMDisk（SDS）
++
+虛擬機器內的虛擬磁碟
+
+** VMDisk（FabricPool VMware）
++
+結合虛擬磁碟與雲端層
+
+** LUN FlexArray （僅限部分）
+
+
+* * RAID類型*
++
+RAID組態類型。
+
+* *《類型*》SnapLock
++
+Aggregate SnapLock 功能。可能的值包括「法規遵循」、「企業」、「非SnapLock」。
+
+* * HA配對*
++
+透過形成兩個節點所獲得的HA配對值。
+
+* *節點*
++
+包含Aggregate的節點名稱。
+
+* *叢集*
++
+叢集名稱。您可以按一下叢集名稱、瀏覽至該叢集的容量詳細資料頁面。
+
+* *叢集FQDN
++
+叢集的完整網域名稱（FQDN）。
+
+

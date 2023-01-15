@@ -1,0 +1,14 @@
+---
+permalink: reporting/concept-customizing-qtree-capacity-reports.html 
+sidebar: sidebar 
+keywords:  
+summary: 這些範例自訂報告可協助您識別及回應與Qtree容量相關的潛在問題。 
+---
+= 自訂Qtree容量報告
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+這些範例自訂報告可協助您識別及回應與Qtree容量相關的潛在問題。

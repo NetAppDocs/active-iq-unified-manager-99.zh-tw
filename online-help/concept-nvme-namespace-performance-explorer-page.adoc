@@ -1,0 +1,35 @@
+---
+permalink: online-help/concept-nvme-namespace-performance-explorer-page.html 
+sidebar: sidebar 
+keywords:  
+summary: NVMe命名空間/效能資源管理器頁面提供叢集內所有NVMe命名空間效能的詳細總覽。 
+---
+= NVMe命名空間/效能資源管理器頁面
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+NVMe命名空間/效能資源管理器頁面提供叢集內所有NVMe命名空間效能的詳細總覽。
+
+NVMe命名空間/效能資源管理器頁面可讓您在特定時間段內追蹤及比較NVMe命名空間效能、協助您疑難排解及微調命名空間的效能。
+
+使用「檢視與比較」功能、您可以將此NVMe命名空間的效能與以下項目進行比較：
+
+* 命名空間所在的磁碟區
+* 位於相同磁碟區的其他命名空間
+* 位於相同儲存VM上的其他命名空間
+
+
+NVMe命名空間/效能資源管理器頁面可讓您：
+
+* 檢視臨界值相關問題及其詳細資料
+* 追蹤並比較命名空間效能資料
+* 調查並疑難排解臨界值相關問題
+* 調查並疑難排解效能問題
+* 啟動System Manager以變更命名空間的組態
++
+如果您以應用程式管理員或儲存管理員角色登入Unified Manager、以及使用ONTAP 版本9.5或更新版本、則可以使用「*設定NVMe命名空間*」按鈕。
+
+
