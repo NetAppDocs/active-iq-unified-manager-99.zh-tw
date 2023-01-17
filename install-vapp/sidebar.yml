@@ -7,8 +7,6 @@ entries:
   entries:
   - title: Unified Manager伺服器的功能
     url: "/install-vapp/concept-what-the-unified-manager-server-does.html"
-  - title: 產品文件Active IQ Unified Manager
-    url: "/install-vapp/reference-oncommand-unified-manager-product-documentation.html"
   - title: 安裝順序總覽
     url: "/install-vapp/concept-overview-of-the-installation-sequence-um.html"
 - title: 安裝Unified Manager的需求

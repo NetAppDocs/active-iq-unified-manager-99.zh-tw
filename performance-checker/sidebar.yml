@@ -9,8 +9,6 @@ entries:
     url: "/performance-checker/concept-unified-manager-performance-monitoring-features.html"
   - title: Unified Manager介面、用於管理儲存系統效能
     url: "/performance-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-performance.html"
-  - title: 產品文件Active IQ Unified Manager
-    url: "/performance-checker/reference-oncommand-unified-manager-product-documentation.html"
   - title: 叢集組態與效能資料收集活動
     url: "/performance-checker/concept-cluster-configuration-and-performance-data-collection-activity.html"
   - title: 什麼是資料持續性收集週期

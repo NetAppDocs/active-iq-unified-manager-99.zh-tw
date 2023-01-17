@@ -9,8 +9,6 @@ entries:
     url: "/health-checker/concept-unified-manager-health-monitoring-features.html"
   - title: Unified Manager介面、用於管理儲存系統健全狀況
     url: "/health-checker/concept-unified-manager-interfaces-used-to-manage-storage-system-health.html"
-  - title: 產品文件Active IQ Unified Manager
-    url: "/health-checker/reference-oncommand-unified-manager-product-documentation.html"
 - title: 通用的Unified Manager健全狀況工作流程與工作
   url: "/health-checker/concept-common-unified-manager-administrative-workflows-and-tasks.html"
   entries:
