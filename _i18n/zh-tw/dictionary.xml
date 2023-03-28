@@ -13047,7 +13047,6 @@
   <block id="09d454f0bf432593d99fbfd84c9f9293" category="sidebar">執行組態和管理工作</block>
   <block id="8b00815fc5298212e3dc28a279ed4a10" category="sidebar">產生自訂報告</block>
   <block id="5fc23f7e4ef2f5b01f7034e6f2ceb340" category="sidebar">在VMware vSphere系統上安裝Unified Manager</block>
-  <block id="13bd7c1485a8096980a7a59aa3af154f" category="sidebar">產品文件Active IQ Unified Manager</block>
   <block id="32d8b1bb1bdc5067bfbde495253b3469" category="sidebar">監控及管理叢集健全狀況</block>
   <block id="0cdc2e43fd617d44b61e3c28d05ef9e7" category="sidebar">管理健全狀況臨界值（叢集健全狀況）</block>
   <block id="a4d86585f88de3caa783eefc33f81448" category="sidebar">設定全域健全狀況臨界值設定（叢集健全狀況）</block>
@@ -13102,7 +13101,13 @@
   <block id="d667ab1eefcedffdc31f52ebff9d478d" category="sidebar">介紹功能（管理與監控Active IQ Unified Manager ）</block>
   <block id="19966a54541b838c85278932c36c8122" category="sidebar">變更Unified Manager主機名稱（管理及監控）</block>
   <block id="433a3de67ad10a966d2b8b61c37210d2" category="sidebar">將磁碟空間新增至Unified Manager資料庫目錄（管理及監控）</block>
-  <block id="e9f56eb126455869bdb213c6b8827217" category="sidebar">版權、商標及機器翻譯</block>
-  <block id="b1ff5704b48e42d700d43961dd415064" category="sidebar">商標</block>
-  <block id="b4de17ead867a3cf0b9d11e57e562672" category="sidebar">機器翻譯</block>
+  <block id="d2a94210021c8b039ff02205332050d6" category="list-text">依下列順序停止Unified Manager服務及相關的MySQL服務：</block>
+  <block id="404da40c487927dba2ac8fbeaf4164c7" category="paragraph"><block ref="82c3764445bb3b06901e7b63a3d77b33" prefix="" category="inline-code"></block></block>
+  <block id="67c3532937b08ee6ee4886253d23ae77" category="paragraph"><block ref="0c8678e149988f32ce26363dd973e3e4" prefix="" category="inline-code"></block></block>
+  <block id="9598c79c23eecd03d44d0bc68e248fac" category="paragraph"><block ref="fe1af313f8dcd22f206587251241e628" prefix="" category="inline-code"></block></block>
+  <block id="bc3bdda2dda9f3fd07e80e72f7823d5c" category="list-text">依照下列順序啟動MySQL和Unified Manager服務：</block>
+  <block id="c296640e14086f0c65597a8f86200a7f" category="paragraph"><block ref="150805955ea8d01043ed67741faa3231" prefix="" category="inline-code"></block></block>
+  <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph"><block ref="95f8b16a4dbd2fadc67eaff9a5242c74" prefix="" category="inline-code"></block></block>
+  <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph"><block ref="b506087ff19db2de96b73b035cc1d174" prefix="" category="inline-code"></block></block>
+  <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> 是否需要精靈程式來啟動和停止MySQL伺服器。</block>
 </blocks>
