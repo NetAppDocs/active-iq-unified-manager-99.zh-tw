@@ -93,7 +93,7 @@ p7zip 16.02
 ----
 # sudo yum --disablerepo=rhel-8-for-x86_64-appstream-rpms install  mysql-community-server
 ----
-. 您必須執行 <<STEP_EFB6C72C92504ED68EFE5AE44E710D98,步驟7.>>僅限_如果您的系統未連線至網際網路、而且您必須手動下載安裝所需的套件。如果您的系統可以存取網際網路、而且所有必要的套件都可供使用、請前往 <<STEP_84638F64625B460D9B39BB07971C2480,步驟8.>>。對於未連線至網際網路或未使用Red Hat Enterprise Linux儲存庫的系統、請執行下列步驟以判斷是否缺少任何必要的套件、然後下載這些套件：
+. 如果您的系統未連線至網際網路、而且您必須手動下載安裝所需的套件、則必須執行步驟7 _only。如果您的系統可以存取網際網路、而且所有必要的套件都可供使用、請前往步驟8。對於未連線至網際網路或未使用Red Hat Enterprise Linux儲存庫的系統、請執行下列步驟以判斷是否缺少任何必要的套件、然後下載這些套件：
 +
 .. 在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單： `yum install netapp-um<version\>.x86_64.rpm --assumeno`
 +

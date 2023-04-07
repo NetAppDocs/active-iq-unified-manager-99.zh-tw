@@ -8,6 +8,9 @@ summary: Linux平台上的Unified Manager快速入門指南。
 :allow-uri-read: 
 
 
+[role="lead"]
+您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。
+
 
 
 == 系統需求

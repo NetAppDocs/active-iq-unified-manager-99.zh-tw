@@ -22,7 +22,7 @@ summary: 對於動態效能事件、「事件詳細資料」頁面的「系統�
 當您依延遲尖峰差異排序時、系統定義的工作負載不會顯示在表格中、因為延遲僅適用於使用者定義的工作負載。低延遲值的工作負載不會顯示在表格中。
 
 ====
-如需動態效能臨界值的詳細資訊、請參閱 link:reference-performance-event-analysis-and-notification.adoc["什麼是事件"]。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[Unified Manager如何判斷事件的效能影響]。
+如需動態效能臨界值的詳細資訊、請參閱 xref:reference-performance-event-analysis-and-notification.adoc[什麼是事件]。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 xref:concept-how-unified-manager-determines-the-performance-impact-for-an-incident.adoc[Unified Manager如何判斷事件的效能影響]。
 
 圖表中的資料會顯示上次分析事件之前24小時的效能統計資料。每個工作負載的實際值和預期值取決於事件涉及的工作負載時間。例如、工作負載可能會在偵測到事件後介入事件、因此其效能統計資料可能與事件偵測時的值不符。根據預設、工作負載會依延遲的尖峰（最高）偏移進行排序。
 
@@ -39,7 +39,7 @@ summary: 對於動態效能事件、「事件詳細資料」頁面的「系統�
 
 ** *元件使用率欄*
 +
-顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 link:reference-workload-performance-measurement-values.adoc["工作負載效能測量"]。
+顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 xref:reference-workload-performance-measurement-values.adoc[工作負載效能測量]。
 
 +
 [NOTE]

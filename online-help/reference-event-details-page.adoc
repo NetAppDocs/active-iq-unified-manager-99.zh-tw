@@ -32,7 +32,7 @@ summary: 從「事件詳細資料」頁面、您可以檢視所選事件的詳�
 對於動態效能事件、本節會顯示代表叢集邏輯和實體元件的圖示。如果元件發生爭用、其圖示會圈選並反白顯示為紅色。
 
 +
-請參閱 link:concept-cluster-components-and-why-they-can-be-in-contention.adoc["叢集元件及其爭用的原因"] 以取得此處顯示之元件的說明。
+請參閱 xref:concept-cluster-components-and-why-they-can-be-in-contention.adoc[叢集元件及其爭用的原因] 以取得此處顯示之元件的說明。
 
 
 

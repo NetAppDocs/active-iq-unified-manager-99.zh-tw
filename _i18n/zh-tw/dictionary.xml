@@ -1759,7 +1759,6 @@
   <block id="ebbab74c7a0bca0b34014d8b31f4b555" category="paragraph">系統會提示您是否要變更連接埠、然後立即重新啟動Unified Manager。</block>
   <block id="5baed249a436bad64304ca18c80b1046" category="list-text">輸入* y*以變更連接埠、然後重新啟動Unified Manager。</block>
   <block id="f4dbd114406d92353e8a1e1c4fd9c80e" category="list-text">離開維護主控台。</block>
-  <block id="baec228da07f4117ab287d4e7ff3450d" category="paragraph">變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如https://host.company.com:1234_、_https://12.13.14.15:1122_或_https://[2001:db8:0:1]:2123_。</block>
   <block id="a34cd6f4c94c5ba3e746a43277da2b01" category="summary">如果已啟用遠端驗證、您可以停用巢狀群組驗證、以便只有個別使用者（而非群組成員）可以遠端驗證Unified Manager。若要改善Active Directory驗證回應時間、您可以停用巢狀群組。</block>
   <block id="43c77f80d73d1ad18307da186ce2dfb7" category="doc">從遠端驗證停用巢狀群組</block>
   <block id="127ee1432ace68462d32845133dd493a" category="list-text">停用巢狀群組僅適用於使用Active Directory的情況。</block>
@@ -1917,7 +1916,6 @@
   <block id="860a4ae959c1f38d2bdb3672dbc6e68f" category="list-text">按一下*名稱*、然後輸入<block ref="5a62e78cb11c6a68fcf30f73ceeb07ce" prefix=" " category="inline-code"></block> 在*警示名稱*欄位中。</block>
   <block id="4687a45557c6de6bf5014c298ba19516" category="list-text">按一下「*資源*」、然後在「包含」索引標籤中、從下拉式清單中選取「*磁碟區*」。</block>
   <block id="8cca26a201b0b43bca19bfb283b369be" category="list-text">輸入<block ref="900150983cd24fb0d6963f7d28e17f72" prefix=" " category="inline-code"></block> 在「*名稱包含*」欄位中、顯示名稱包含「'abc'」的磁碟區。</block>
-  <block id="4db3be3dab523c61caf6ee4e5ad56eb1" category="list-text">選取*<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>*從「可用資源」區域、將其移至「選取的資源」區域。</block>
   <block id="f3afa732be6de123d4fdd89d63e6c867" category="list-text">按一下*排除*、然後輸入<block ref="d16fb36f0911f878998c136191af705e" prefix=" " category="inline-code"></block> 在「*名稱包含*」欄位中、然後按一下「*新增*」。</block>
   <block id="995611eb3ed7d85cb25d639ccb379ab7" category="list-text">按一下「*事件*」、然後從「事件嚴重性」欄位中選取「*嚴重*」。</block>
   <block id="e442773ac882688a850ce3cb0aa40df6" category="list-text">從「Matching Event（符合事件）」區域中選取* All Critical事件*、然後將其移至「Selected Event（選取的事件）」區域。</block>
@@ -5423,7 +5421,6 @@
   <block id="59ed1d4c045e5b70eb07c1bcf26e632f" category="paragraph">在確認磁碟區離線狀況是由毀損的RAID磁碟及其後的離線主機Aggregate所造成之後、請聯絡適當的管理員或操作員、手動更換毀損的磁碟、並將Aggregate重新連線。</block>
   <block id="f3011abc0f2cf46c0f0e4bb1bb2a0bc0" category="summary">您可以使用「Volume / Health（磁碟區/健全狀況）」詳細資料頁面來檢視所選磁碟區的詳細資訊、例如容量、儲存效率、組態、保護、 註釋和產生的事件。您也可以檢視該磁碟區相關物件的相關資訊、以及相關警示。</block>
   <block id="e57daf17402a23e1c67326454713c519" category="doc">Volume / Health詳細資料頁面</block>
-  <block id="62de64540d85589bdce233c0192ffa51" category="list-text"><block ref="ef85462d98138bd3d2a4c885e92271b2" category="inline-xref-macro-rx"></block></block>
   <block id="d291617aef6e2c71ee50d482ca30a639" category="paragraph">命令按鈕可讓您針對選取的Volume執行下列工作：</block>
   <block id="bc70e10629f9ad610a953a22db460218" category="paragraph">可讓您瀏覽至Volume / Performance詳細資料頁面。</block>
   <block id="50b1ea3c76cb6b1a0b5c5c488d609e0d" category="paragraph">可讓您新增警示至所選的Volume。</block>
@@ -8426,9 +8423,6 @@
   <block id="29cc3ee54d22c8d34f0703b0fdf101a9" category="list-text">執行安裝前指令碼、確保沒有系統組態設定或任何可能與安裝Unified Manager衝突的安裝軟體：<block ref="aafaead82da84c908c0f4e4b6bdfd43c" prefix=" " category="inline-code"></block></block>
   <block id="91ddae155de651c77081a04807514b9a" category="paragraph">安裝前指令碼會檢查系統是否有有效的Red Hat訂閱、以及是否有權存取所需的軟體儲存庫。如果指令碼發現任何問題、您必須在安裝Unified Manager之前修正問題。</block>
   <block id="b06597a497eb21d391372afb93828b7b" category="paragraph">對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有JDK11 - OpenJDK, p7Zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：</block>
-  <block id="834ffaadb040d157daea2be06216315a" category="inline-xref">步驟7.</block>
-  <block id="70c52f8fba5e2a6610cbd7ac8cec8ea4" category="inline-xref">步驟8.</block>
-  <block id="f69ffa9e2530c93eec122bfebb78eb0d" category="list-text">您必須執行 <block ref="1cab4d98a1d8e443e4fb0ed97249d177" category="inline-xref-macro-rx"></block>僅限_如果您的系統未連線至網際網路、而且您必須手動下載安裝所需的套件。如果您的系統可以存取網際網路、而且所有必要的套件都可供使用、請前往 <block ref="1875f7c44e96bee93d30273b4a96bc63" category="inline-xref-macro-rx"></block>。對於未連線至網際網路或未使用Red Hat Enterprise Linux儲存庫的系統、請執行下列步驟以判斷是否缺少任何必要的套件、然後下載這些套件：</block>
   <block id="8f18298a036e529263de6c20caa7bd22" category="list-text">在您要安裝Unified Manager的系統上、檢視可用和無法使用的套件清單：<block ref="073139234fb3d773b942ceabd7f71696" prefix=" " category="inline-code"></block></block>
   <block id="0f6821f28720fad4bff6027633ab91c0" category="paragraph">「正在安裝：」區段中的項目是目前目錄中可用的套件、而「正在安裝相依套件：」區段中的項目是您系統上遺失的套件。</block>
   <block id="91bb85c174a357b715c58e93154ae9cd" category="list-text">在可存取網際網路的系統上、下載遺失的套件：<block ref="7e30708965ebb4fb2d6f096fff739831" prefix=" " category="inline-code"></block></block>
@@ -8686,7 +8680,6 @@
   <block id="5ddcf17f54788a5bb9148e8671562c06" category="list-text">*連接埠*</block>
   <block id="0bf7a4bae799698d9fb35f2f052c055b" category="paragraph">可讓您指定用於連線至叢集的連接埠號碼。HTTPS的預設連接埠為443。</block>
   <block id="aa1daa474c7a5ca26676f22debadc497" category="doc">不明驗證錯誤</block>
-  <block id="9ff702207c5c34d0a659bd2093b21d08" category="list-text">*問題*</block>
   <block id="ef5d4fecdd3493d1580a29894128aa78" category="paragraph">執行驗證相關作業（例如新增、編輯、刪除或測試遠端使用者或群組）時、可能會顯示下列錯誤訊息：<block ref="aa1daa474c7a5ca26676f22debadc497" prefix=" " category="inline-code"></block>。</block>
   <block id="3bef6104c92bf17bdfdf66c9a257bbfc" category="list-text">*原因*</block>
   <block id="603985874695e48f0f343eddd9f00df0" category="paragraph">如果您為下列選項設定了不正確的值、就可能發生此問題：</block>
@@ -9329,7 +9322,6 @@
   <block id="80687a881a315fb61a2b48a6e60b4a5a" category="paragraph">您應該提供警示說明、以便有效追蹤警示。</block>
   <block id="ddcf50c29294d4414f3f7c1bbc892cb5" category="list-text">資源</block>
   <block id="17f9c57d264c89951df5c1db82fd7648" category="paragraph">您應該決定哪些實體或邏輯資源需要警示。您可以視需要納入和排除資源。例如、如果您想要透過設定警示來密切監控集合體、則必須從資源清單中選取所需的集合體。</block>
-  <block id="9b4e9eae14325b35785f555c2b80c5c3" category="paragraph">如果您選取資源類別、例如*<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>*、您將會收到該類別中所有物件的警示。</block>
   <block id="b1f0bb9e4119cac23af781dbcb98eede" category="paragraph">選取叢集做為資源並不會自動選取該叢集內的儲存物件。例如、如果您為所有叢集的所有重大事件建立警示、您將只會收到叢集重大事件的警示。您不會收到節點、集合體等關鍵事件的警示。</block>
   <block id="e0b18d5b04f677d427e5a029d591d7a9" category="list-text">事件嚴重性</block>
   <block id="e9f9b8abaf7eb3e0540aa0a9395b4586" category="paragraph">您應該決定是否應觸發指定嚴重性類型（嚴重、錯誤、警告）的警示、如果是、則應觸發何種嚴重性類型。</block>
@@ -9829,8 +9821,6 @@
   <block id="9031cd728998bae2a317c0ada2c06c50" category="list-text">按一下「*安裝HTTPS憑證*」。</block>
   <block id="dafb1ec2f1328a43e62f2e17ec152ee1" category="list-text">在顯示的對話方塊中、按一下*選擇檔案...*以找出要上傳的檔案。</block>
   <block id="5da1f8bf7b38bb2a074639707c42026e" category="list-text">選取檔案、然後按一下「*安裝*」以安裝檔案。</block>
-  <block id="9d6e63ada90eb8212c721413e3cbddb4" category="inline-link-macro">概念安裝-A-https-Certificate使用外部工具產生的DITA</block>
-  <block id="48602b7b778981dcf31178d5926d956e" category="paragraph"><block ref="48602b7b778981dcf31178d5926d956e" category="inline-link-macro-rx"></block></block>
   <block id="04a57370fa2200d77ef5928f7670b3d3" category="section-title">範例憑證鏈結</block>
   <block id="7c051c353986dd53c30c276ec156f68f" category="paragraph">下列範例顯示憑證鏈結檔案的顯示方式：</block>
   <block id="d96a1cff62b479b326f5ebda571bc045" category="summary">保護事件會告訴您工作是否失敗或已中止、以便您監控問題。事件會依影響區域分組、包括事件和陷阱名稱、影響層級、來源類型和嚴重性。</block>
@@ -10947,7 +10937,6 @@
   <block id="971bc243bf5be898efaebd3d2c7dc2ff" category="paragraph">可讓您加入要觸發警示的資源。您可以指定文字字串來群組符合字串的資源、然後選取要納入警示的群組。例如、您可以將名稱包含「'abc'」字串的所有磁碟區分組。</block>
   <block id="a331a53ce7ff01e69798721f7bf83d7c" category="list-text">*排除*</block>
   <block id="706fa2dc0c7413cf984bdc7899e18339" category="paragraph">可讓您排除不想觸發警示的資源。例如、您可以排除名稱包含「'xyz'」字串的所有磁碟區。</block>
-  <block id="f2b183916ef051011bf3b2abce3ce054" category="paragraph">只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤：例如、 <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 或 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>。</block>
   <block id="a55c7a5790be227c0b0411407179e814" category="paragraph">如果資源同時符合您指定的INCLUDE和EXclude規則、排除規則將優先於INCLUDE規則、而且不會針對事件產生警示。</block>
   <block id="7f3053c56b9c2ab27d983678f88c47e3" category="paragraph">此區域可讓您選取要建立警示的事件。您可以根據特定嚴重性或一組事件、為事件建立警示。</block>
   <block id="6e19c7085382cae7c4da3e3d5c5ed218" category="paragraph">若要選取多個事件、請在選取時按住Ctrl鍵。</block>
@@ -11435,7 +11424,6 @@
   <block id="11afb48f4925715910142b11a6d18d2c" category="paragraph">移動連線至CIFS共用的LIF時、存取CIFS共用的用戶端會中斷連線。任何對CIFS共用區的讀取或寫入要求都會中斷。</block>
   <block id="642ceb2c24ddc880d3f99ceceb9a302b" category="paragraph">您可以使用ONTAP VMware指令來設定負載平衡。如需詳細資訊、請參閱ONTAP 《關於網路的資訊》文件。</block>
   <block id="cc84e4cd9dea8de50b595a4b3e47bc6b" category="paragraph">您可以使用ONTAP 「系統管理程式」和ONTAP 「Sof CLI」命令手動搬移生命。</block>
-  <block id="50db78f7c6f8311cd52dcb3e51a3b89d" category="paragraph">請參閱 <block ref="16e87216931e426be7c40c44d34094b9" category="inline-link-macro-rx"></block> 以取得此處顯示之元件的說明。</block>
   <block id="b043e78bd977739dcd5bdd93a7e424cb" category="summary">「Volume臨界值」頁面可讓您設定受監控磁碟區的全域健全狀況臨界值。您可以設定個別磁碟區或全域所有磁碟區的臨界值。全域設定選項時、會修改所有物件的預設值。不過、如果物件層級的預設值已變更、則不會修改全域值。</block>
   <block id="d9f1a0d91cce62f9674c8901adcc0490" category="doc">Volume臨界值頁面</block>
   <block id="4dd7820433162256e257eb1466ae2393" category="paragraph">您可以設定下列項目的臨界值：容量、Volume Snapshot複本、qtree配額、Volume成長和inode。</block>
@@ -11685,7 +11673,6 @@
   <block id="7b2ca92a0e10c48d7631c9609a6d7067" category="paragraph">當您將游標停留在圖表上時、延遲和活動圖表會顯示最重要的工作負載名稱。按一下圖表右側的工作負載類型功能表、即可根據工作負載在事件中的角色（包括_Sharks _、_bulies _或_als受害者_）來排序工作負載、並顯示其延遲及其在爭用叢集元件上使用的詳細資料。您可以比較實際值與預期值、查看工作負載何時超出預期的延遲或使用範圍。請參閱 <block ref="9f2938dff180af01fa93d55b4de76b26" category="inline-xref-macro-rx"></block>。</block>
   <block id="db69501da9f35d5723a50c4a668d5bb1" category="paragraph">當您依延遲尖峰差異排序時、系統定義的工作負載不會顯示在表格中、因為延遲僅適用於使用者定義的工作負載。低延遲值的工作負載不會顯示在表格中。</block>
   <block id="e5ee071b3b431489cbbdfadb0adb789c" category="inline-link-macro">什麼是事件</block>
-  <block id="9cd94be50f953ca5b3d67273e067ae6c" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱 <block ref="0535bb9dbc4ba4c8dec14b625dcb4a64" category="inline-link-macro-rx"></block>。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
   <block id="7427acf420f5207b8ae1131352d073c7" category="paragraph">圖表中的資料會顯示上次分析事件之前24小時的效能統計資料。每個工作負載的實際值和預期值取決於事件涉及的工作負載時間。例如、工作負載可能會在偵測到事件後介入事件、因此其效能統計資料可能與事件偵測時的值不符。根據預設、工作負載會依延遲的尖峰（最高）偏移進行排序。</block>
   <block id="2545bfbff2b57fe22210b418aa7b0bde" category="paragraph">由於Unified Manager最多可保留30天5分鐘的歷史效能和事件資料、因此如果事件超過30天、就不會顯示效能資料。</block>
   <block id="a1fb5903985467b316b77afec2a094fa" category="list-text">*工作負載排序欄*</block>
@@ -11693,7 +11680,6 @@
   <block id="ad66c9e4c4aac43f31d0399bd4bda649" category="paragraph">顯示上次分析期間事件對工作負載延遲的影響。</block>
   <block id="733e7290b02f4bcfc4024e1c7717761e" category="list-text">*元件使用率欄*</block>
   <block id="b0a053673931b228f989352c64b39510" category="inline-link-macro">工作負載效能測量</block>
-  <block id="7217fed83eafaf5cd5c315f3fae6bdc0" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 <block ref="441c1f0640ee23e8a572ef20ebbdc844" category="inline-link-macro-rx"></block>。</block>
   <block id="6b3abe7014911eaecd1bb9f29044ebe9" category="paragraph">對於網路元件、由於網路效能統計資料來自叢集之外的活動、因此不會顯示此欄。</block>
   <block id="c1488620d5b7412ffad628b521ecbba0" category="list-text">*元件使用率*</block>
   <block id="63c1fe7ae0c47abf05be33ca259c4db4" category="paragraph">以百分比顯示QoS原則群組元件的網路處理、資料處理和集合體元件使用率歷程記錄、或是活動歷程記錄（以百分比表示）。不會顯示網路或互連元件的圖表。您可以指向統計資料、以在特定時間點檢視使用統計資料。</block>
@@ -11818,10 +11804,7 @@
   <block id="baa12b742399c6a3ac8d5e607e65f52f" category="section-title">自訂設定</block>
   <block id="56af56dc038418e1a14eeaf507c69a2d" category="paragraph">啟用此功能時、您可以自訂適用於ONTAP 您的支援環境的法規遵循監控設定。這些設定會觸發相關的安全性事件和管理動作。請遵循下列步驟：</block>
   <block id="e9820cac1de73e6a858b577124212802" category="list-text">按一下*自訂*。「自訂安全性儀表板設定」快顯視窗隨即出現。</block>
-  <block id="bcb6a2df7b5f2d9c00f84273cf8b97f3" category="inline-link-macro">*叢集規範類別*</block>
-  <block id="dbac0ffb488a528a37ad9c1bdbdfb3fc" category="list-text">若要啟用或停用ONTAP 您的還原叢集的自訂設定、請展開「叢集」的*「一般設定」*選項。如需自訂叢集規範選項的相關資訊、請參閱 <block ref="e4a50398e2a3c53a298bf2d01182ec03" category="inline-link-macro-rx"></block>。</block>
   <block id="1b384d589c8bfd9a5acdde4674d71d8b" category="inline-link-macro">儲存VM法規遵循類別</block>
-  <block id="a72c9443e3c07d7b6a6ae97a8e0dddcd" category="list-text">若要啟用或停用儲存VM的自訂設定、請展開「儲存VM」的「*一般設定*」選項。如需自訂儲存VM法規遵循選項的相關資訊、請參閱 <block ref="c983d9b47226bdff11cdd680675802bc" category="inline-link-macro-rx"></block>。</block>
   <block id="a9d3b46efc0c2c9f42d82faeca52f076" category="list-text">您也可以指定是否要使用HTTPS傳輸來從AutoSupport 支援中心傳送資訊ONTAP 。</block>
   <block id="4c1327ac7a730c0089806c8663dec639" category="list-text">如果啟用驗證設定、預設ONTAP 的管理員使用者會從Unified Manager發出警示。</block>
   <block id="b846d1144d90307e0cfa35b918a98a98" category="doc">找不到使用者</block>
@@ -12336,7 +12319,6 @@
   <block id="9d880624261f4ced2ab74566af6f64a3" category="paragraph">可讓您啟用或停用警示。</block>
   <block id="5cdb12198877fb739ad076fe6760b905" category="paragraph">此區域可讓您根據您要觸發警示的動態規則、選取個別資源或群組資源。您可以從下拉式清單中選取資源類型來搜尋資源、也可以指定確切的資源名稱來顯示特定資源。</block>
   <block id="e5ab2ea3d777f895fc784fa6842acbee" category="paragraph">可讓您加入要觸發警示的資源。您可以指定文字字串來群組符合字串的資源、然後選取要納入警示的群組。例如、您可以將名稱包含「'vol0'」字串的所有磁碟區分組。</block>
-  <block id="74dd0c8a01bae4b966aefe5427a532b0" category="paragraph">只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤、例如 <block ref="0350a5968a3cf533bb7edcb37c899b0b" category="inline-xref-macro-rx"></block> 或 <block ref="72238bf76c964df49e0c21f6a354496b" category="inline-xref-macro-rx"></block>。</block>
   <block id="94c9150606505bd90fdfe39d973bf119" category="paragraph">此區域可讓您選取要觸發警示的事件。您可以根據特定嚴重性或一組事件觸發事件警示。</block>
   <block id="03a76b4d3060d632bd26064b59c39af0" category="paragraph">可讓您選取名稱包含指定字元的事件。</block>
   <block id="40bed07985ab2c796628427f46f3a643" category="paragraph">此區域可讓您指定通知方法和通知頻率。</block>
@@ -12730,7 +12712,6 @@
   <block id="20380496f33f2ca66b5997b1caf40295" category="list-text">按一下*名稱*、然後輸入警示的名稱和說明。</block>
   <block id="0d461a80709dd3328371663bccc63f4e" category="list-text">按一下「*資源*」、然後選取「*包括*」索引標籤。</block>
   <block id="a2349ca3aa3547eac5b8f26aba860408" category="list-text">從下拉式清單中選取* Volume *、然後輸入<block ref="2b0d59c7031769e80c8e5118b6ec7694" prefix=" " category="inline-code"></block> 在「*名稱包含*」欄位中、顯示名稱包含「vol1」的磁碟區。</block>
-  <block id="e0667911ce742192fb30ca466b525c43" category="list-text">選取*<block ref="64f00a2ce12e2238805f98ba4ff31dd0" category="inline-xref-macro-rx"></block>*從*可用資源*區域、將其移至*所選資源*區域。</block>
   <block id="712849bad1aaebf5cae779a3be975db3" category="list-text">選取*排除*索引標籤、選取* Volume *、然後輸入<block ref="6b96f04868a15574a98b70cc112af117" prefix=" " category="inline-code"></block> 在「*名稱包含*」欄位中、然後按一下「*新增*」。</block>
   <block id="8b52fb8e7a4095e169cb1109673b0758" category="paragraph">這不包括在SVM上為Volume「vol1」產生警示「VS1-Dr'」。</block>
   <block id="e4f547cf69e9fdc47d2f50b618004d5c" category="list-text">按一下「*事件*」、然後選取您要套用到磁碟區或磁碟區的事件。</block>
@@ -13110,4 +13091,20 @@
   <block id="9189a17a0b9197d3243162eb3951a42e" category="paragraph"><block ref="95f8b16a4dbd2fadc67eaff9a5242c74" prefix="" category="inline-code"></block></block>
   <block id="1808b5aaf7bd49816b66667808cd4cc7" category="paragraph"><block ref="b506087ff19db2de96b73b035cc1d174" prefix="" category="inline-code"></block></block>
   <block id="228689b16f6e524fb9ed06d81f33db6b" category="paragraph"><block ref="7e3bc202e89677c6d62e218685393bf5" prefix="" category="inline-code"></block> 是否需要精靈程式來啟動和停止MySQL伺服器。</block>
+  <block id="d92bb0fdb003a277ed75c5c3745b9f31" category="paragraph">您可以下載<block ref="58963a595c988dc6f693cb3238dc907a" prefix=" " category="inline-code"></block> 包含根憑證的檔案：a<block ref="c47c7c7383225ab55ff591cb59c41e6b" prefix=" " category="inline-code"></block> 檔案、和<block ref="586ba478b7ebec665f3df120799b6c2e" prefix=" " category="inline-code"></block> 將Unified Manager部署為虛擬應用裝置。</block>
+  <block id="299c06148a9e9a56e7af6bec06118cc3" category="list-text">從&lt;All Volumes whose name contains 'vol1'&gt; *可用資源*區域中選取*\*、然後將其移至*選取的資源*區域。</block>
+  <block id="e06c4d39deded3fa995441b19249d214" category="list-text">從&lt;All Volumes whose name contains 'abc'&gt; 「Available Resources（可用資源）」區域中選取「*」、然後將其移至「Selected Resources（選取的資源）」區域。</block>
+  <block id="b64529f9e389236b9f2566781686af29" category="paragraph">如需動態效能臨界值的詳細資訊、請參閱 <block ref="b14b5e4f6cbe4b301154269a772681ba" category="inline-xref-macro-rx"></block>。如需Unified Manager如何排列工作負載及決定排序順序的相關資訊、請參閱 <block ref="588858b1cc06423e48caf8172f8d9578" category="inline-xref-macro-rx"></block>。</block>
+  <block id="96d692837100f5154eb4c4e2945e5eb7" category="paragraph">顯示爭用叢集元件之工作負載使用量的詳細資料。在圖表中、實際使用量是一條藍線。紅色長條會強調事件持續時間、從偵測時間到上次分析時間。如需詳細資訊、請參閱 <block ref="c675c86402e927afb70b1b330e173e9e" category="inline-xref-macro-rx"></block>。</block>
+  <block id="4df85d53bab21b33d7555a708130659f" category="paragraph">只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤：例如、\&lt;If&gt;&lt;All Volumes&gt; 或\&lt;If&gt;&gt;&lt;All Volumes whose name contains '_xyz_'&gt; 。</block>
+  <block id="1ca421dc51b9370ab8a0d77fbb5f0ff2" category="paragraph">只有當您選取特定資源類型的所有資源時、才會顯示「排除」索引標籤、例如：\&lt;ese&gt;&lt;All Volumes&gt; 或\&lt;ese&gt;&lt;All Volumes whose name contains '_xyz_'&gt; 。</block>
+  <block id="92a1d0a33c1d664d83111f9738800b21" category="paragraph">如需相關資訊、請參閱 <block ref="b3a3a8afaf4baa00c2b403c4f47d8c31" category="inline-link-macro-rx"></block></block>
+  <block id="7bf3920a0e4838ef1c15726dd318a39b" category="paragraph">如果您選取資源類別、例如*+<block ref="3d99572ec2bdf0c3d8dc014395d1fc4b" category="inline-xref-macro-rx"></block>+*、您將會收到該類別中所有物件的警示。</block>
+  <block id="3d79c14c218c5cd8ff01696a25ce2486" category="list-text">若要啟用或停用ONTAP 您的還原叢集的自訂設定、請展開「叢集」的*「一般設定」*選項。如需自訂叢集規範選項的相關資訊、請參閱 <block ref="f2eba0b5dc5a68bf8d427384e8126435" category="inline-xref-macro-rx"></block>。</block>
+  <block id="d2c7cc6a0bd65a30dd724b57df36278a" category="list-text">若要啟用或停用儲存VM的自訂設定、請展開「儲存VM」的「*一般設定*」選項。如需自訂儲存VM法規遵循選項的相關資訊、請參閱 <block ref="f7a2215481da607ddb89908bb79db918" category="inline-xref-macro-rx"></block>。</block>
+  <block id="21b27ab0c06b28ac19a0486dc9c2ebef" category="list-text">如果您的系統未連線至網際網路、而且您必須手動下載安裝所需的套件、則必須執行步驟7 _only。如果您的系統可以存取網際網路、而且所有必要的套件都可供使用、請前往步驟8。對於未連線至網際網路或未使用Red Hat Enterprise Linux儲存庫的系統、請執行下列步驟以判斷是否缺少任何必要的套件、然後下載這些套件：</block>
+  <block id="1179316ec42305c025b11e116990dafc" category="list-text">選取*+<block ref="0343dc028b8904b58f0fda8322166a90" category="inline-xref-macro-rx"></block>「可用資源」區域中的「+*」、然後將其移至「選取的資源」區域。</block>
+  <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。</block>
+  <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。</block>
+  <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
 </blocks>

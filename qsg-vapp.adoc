@@ -8,6 +8,9 @@ summary: VMware vSphere平台上的Unified Manager快速入門指南。
 :allow-uri-read: 
 
 
+[role="lead"]
+您可以下載 `.tar` 包含根憑證的檔案：a `README` 檔案、和 `OVA` 將Unified Manager部署為虛擬應用裝置。
+
 
 
 == 系統需求

@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* *問題*
-+
+[role="lead"]
 當您選取「其他」做為驗證服務時、使用者和群組ObjectClass會保留先前選取範本的值。如果LDAP伺服器未使用相同的值、則作業可能會失敗。
 
 * *原因*

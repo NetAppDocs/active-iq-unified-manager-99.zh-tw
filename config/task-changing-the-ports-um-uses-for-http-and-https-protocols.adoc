@@ -55,4 +55,4 @@ Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝�
 
 == 結果
 
-變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如https://host.company.com:1234_、_https://12.13.14.15:1122_或_https://[2001:db8:0:1]:2123_。
+變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。

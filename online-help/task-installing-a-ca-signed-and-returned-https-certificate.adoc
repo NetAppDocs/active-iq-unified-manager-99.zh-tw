@@ -44,7 +44,7 @@ summary: 您可以在「憑證授權單位」簽署並傳回安全性憑證之�
 . 在顯示的對話方塊中、按一下*選擇檔案...*以找出要上傳的檔案。
 . 選取檔案、然後按一下「*安裝*」以安裝檔案。
 +
-link:concept-installing-a-https-certificate-generated-using-external-tools.dita["概念安裝-A-https-Certificate使用外部工具產生的DITA"]
+如需相關資訊、請參閱 link:concept-installing-a-https-certificate-generated-using-external-tools.html["安裝使用外部工具產生的HTTPS憑證"]
 
 
 

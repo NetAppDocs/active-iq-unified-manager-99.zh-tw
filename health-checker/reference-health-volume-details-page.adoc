@@ -15,9 +15,6 @@ summary: 您可以使用「Volume / Health（磁碟區/健全狀況）」詳細�
 
 您必須具有應用程式管理員或儲存管理員角色。
 
-* <<reference-health-volume-details-page,「相關群組」窗格>>
-
-
 
 
 == 命令按鈕

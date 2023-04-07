@@ -8,6 +8,9 @@ summary: Linux平台上的Unified Manager快速入門指南。
 :allow-uri-read: 
 
 
+[role="lead"]
+您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。
+
 
 
 == 系統需求

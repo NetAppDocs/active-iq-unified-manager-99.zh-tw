@@ -27,8 +27,8 @@ summary: 您可以啟用或停用Active IQ Unified Manager 「資訊」儀表板
 啟用此功能時、您可以自訂適用於ONTAP 您的支援環境的法規遵循監控設定。這些設定會觸發相關的安全性事件和管理動作。請遵循下列步驟：
 
 . 按一下*自訂*。「自訂安全性儀表板設定」快顯視窗隨即出現。
-. 若要啟用或停用ONTAP 您的還原叢集的自訂設定、請展開「叢集」的*「一般設定」*選項。如需自訂叢集規範選項的相關資訊、請參閱 link:reference-cluster-compliance-categories.adoc["*叢集規範類別*"]。
-. 若要啟用或停用儲存VM的自訂設定、請展開「儲存VM」的「*一般設定*」選項。如需自訂儲存VM法規遵循選項的相關資訊、請參閱 link:reference-svm-compliance-categories.adoc["儲存VM法規遵循類別"]。
+. 若要啟用或停用ONTAP 您的還原叢集的自訂設定、請展開「叢集」的*「一般設定」*選項。如需自訂叢集規範選項的相關資訊、請參閱 xref:reference-cluster-compliance-categories.adoc[叢集規範類別]。
+. 若要啟用或停用儲存VM的自訂設定、請展開「儲存VM」的「*一般設定*」選項。如需自訂儲存VM法規遵循選項的相關資訊、請參閱 xref:reference-svm-compliance-categories.adoc[儲存VM法規遵循類別]。
 . 您也可以指定是否要使用HTTPS傳輸來從AutoSupport 支援中心傳送資訊ONTAP 。
 . 如果啟用驗證設定、預設ONTAP 的管理員使用者會從Unified Manager發出警示。
 

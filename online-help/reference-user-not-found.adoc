@@ -10,8 +10,7 @@ summary:
 :imagesdir: ../media/
 
 
-* *問題*
-+
+[role="lead"]
 執行驗證相關作業（例如新增、編輯、刪除或測試遠端使用者或群組）時、會顯示下列錯誤訊息： `User not found`。
 
 * *原因*
