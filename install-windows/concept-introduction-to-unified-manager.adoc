@@ -17,4 +17,4 @@ summary: 利用VMware®（前身為《支援統一化管理程式》）、您可
 
 *相關資訊*
 
-https://mysupport.netapp.com/matrix["NetApp 互通性對照表工具"]
+https://["NetApp 互通性對照表工具"]

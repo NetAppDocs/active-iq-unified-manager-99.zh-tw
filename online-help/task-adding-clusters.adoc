@@ -31,7 +31,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 * 您必須在Unified Manager伺服器上有足夠的空間。當超過90%的空間已用完時、您將無法將叢集新增至伺服器。
 * 您擁有必要的憑證。需要兩種類型的憑證：
 +
-*伺服器憑證*：用於登錄。新增叢集需要有效的憑證。如果伺服器憑證過期、您應該重新產生該憑證、然後重新啟動Unified Manager、以便重新自動登錄服務。如需建立憑證的相關資訊、請參閱知識庫（KB）文章： https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_renew_an_SSL_certificate_in_ONTAP_9["如何在ONTAP 更新SSL憑證的過程中進行更新9"]
+*伺服器憑證*：用於登錄。新增叢集需要有效的憑證。如果伺服器憑證過期、您應該重新產生該憑證、然後重新啟動Unified Manager、以便重新自動登錄服務。如需建立憑證的相關資訊、請參閱知識庫（KB）文章： https://["如何在ONTAP 更新SSL憑證的過程中進行更新9"]
 
 +
 *用戶端憑證*：用於驗證。新增叢集需要有效的憑證。您無法將已過期憑證的叢集新增至Unified Manager、如果用戶端憑證已過期、則應在新增叢集之前重新產生叢集。不過、如果此憑證已新增且正由Unified Manager使用的叢集過期、則EMS訊息會繼續與過期的憑證搭配運作。您不需要重新產生用戶端憑證。

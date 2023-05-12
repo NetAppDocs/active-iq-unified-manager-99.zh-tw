@@ -23,7 +23,7 @@ summary: 升級 Unified Manager 之前，請先從 NetApp 支援網站下載 Uni
 
 == 步驟
 
-. 登入 NetApp 支援網站： https://mysupport.netapp.com/site/products/all/details/activeiq-unified-manager/downloads-tab["NetApp 支援網站"]
+. 登入 NetApp 支援網站： https://["NetApp 支援網站"]
 . 瀏覽至*下載*頁面、以在VMware vSphere上升級Unified Manager。
 . 下載 `.iso` 升級映像、並將其儲存至vSphere Client可存取的本機目錄或網路目錄。
 . 驗證Checksum以確保軟體已正確下載。

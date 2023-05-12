@@ -25,7 +25,7 @@ Unified Manager Active IQ 會自動檢查新的版本更新規則檔案、並在
 
 == 關於這項工作
 
-建議您每個月下載一次新的規則檔、以確保儲存系統受到保護、而且能以最佳方式執行。Rules檔案位於： http://mysupport.netapp.com/NOW/public/unified_manager/bin/secure_rules.zip[]
+建議您每個月下載一次新的規則檔、以確保儲存系統受到保護、而且能以最佳方式執行。Rules檔案位於： http://[]
 
 
 

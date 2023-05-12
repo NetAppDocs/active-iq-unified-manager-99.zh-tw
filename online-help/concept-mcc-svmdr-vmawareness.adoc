@@ -30,7 +30,7 @@ xref:concept-managing-and-monitoring-metrocluster-configurations.adoc[管理及�
 
 * 必須在ONTAP VMware和vCenter Server上完成所需的設定。如需相關資訊、請參閱ONTAP 《VMware vCenter與vCenter說明文件》。
 +
-https://docs.netapp.com/ontap-9/index.jsp["供應說明文件中心 ONTAP"]
+https://["供應說明文件中心 ONTAP"]
 
 
 
@@ -63,7 +63,7 @@ https://docs.netapp.com/ontap-9/index.jsp["供應說明文件中心 ONTAP"]
 如需設定的相關資訊、請參閱ONTAP 《VMware vCenter Server》和《vCenter Server》文件。
 
 +
-https://docs.netapp.com/ontap-9/index.jsp["供應說明文件中心 ONTAP"]
+https://["供應說明文件中心 ONTAP"]
 
 
 

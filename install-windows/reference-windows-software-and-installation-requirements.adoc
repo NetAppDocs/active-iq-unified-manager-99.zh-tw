@@ -33,7 +33,7 @@ summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unif
 
 請注意、Windows Server 2012不像舊版一樣受到支援。請參閱互通性對照表、以取得所支援Windows版本的完整且最新清單。
 
-http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
+http://["mysupport.netapp.com/matrix"]
 
 伺服器應專供執行Unified Manager。伺服器上不應安裝其他應用程式。
 

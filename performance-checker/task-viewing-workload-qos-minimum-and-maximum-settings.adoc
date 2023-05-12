@@ -82,4 +82,4 @@ QoS處理量「最小」和「最大」IOPS和MB/s設定只有在ONTAP 進行了
 
 如需調整QoS設定的詳細資訊、請參閱《_ ONTAP 效能監控電源指南_》。
 
-http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["《效能監控電源指南》（英文）ONTAP"]
+http://["《效能監控電源指南》（英文）ONTAP"]

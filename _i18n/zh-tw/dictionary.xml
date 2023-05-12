@@ -13107,4 +13107,5 @@
   <block id="a745c95b049f8f0921c2fcc8baec42c6" category="paragraph">變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。</block>
   <block id="74eaa85433946affb1737b2598fcdd35" category="paragraph">您可以下載安裝套件並安裝Unified Manager、以監控及疑難排解資料儲存容量、可用度、效能及保護問題。</block>
   <block id="d37bfa9087091a2643ebb8f003e74798" category="paragraph">您可以下載安裝套件、並在實體或虛擬Red Hat Enterprise Linux或CentOS平台上安裝Unified Manager。</block>
+  <block id="c2c8552adcdf172b368e6fec79ced7cb" category="list-text">以 Windows 系統管理員身分啟動 PowerShell 或命令提示字元。</block>
 </blocks>
