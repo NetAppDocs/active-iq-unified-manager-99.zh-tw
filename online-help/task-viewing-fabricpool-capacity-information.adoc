@@ -85,4 +85,4 @@ summary: 您可以在FabricPool 容量與效能資源清冊和這些物件的詳
 
 如需FabricPool 更多有關元化的資訊、請參閱《_ ONTAP 元化9磁碟與集合體電源指南》_。
 
-http://["《電力指南》（英文）ONTAP"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.dot-cm-psmg/home.html["《電力指南》（英文）ONTAP"]

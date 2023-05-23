@@ -17,4 +17,4 @@ Unified Manager會自動檢查是否有新的規則檔、而且只有在有較�
 
 這些不屬於現有Unified Manager事件的範例、可識別與系統組態、佈線、最佳實務做法及可用度相關的事件或風險。Active IQ
 
-NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱 https://["NetApp Active IQ"] 以取得更多資訊。
+NetApp Active IQ 解決方案是一項雲端服務、提供預測性分析和主動式支援、以最佳化整個NetApp混合雲的儲存系統作業。請參閱 https://www.netapp.com/us/products/data-infrastructure-management/active-iq.aspx["NetApp Active IQ"] 以取得更多資訊。

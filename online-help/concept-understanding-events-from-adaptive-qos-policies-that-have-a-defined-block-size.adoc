@@ -70,4 +70,4 @@ MB/s = (IOPS * Block Size) / 1000
 
 如需調整QoS設定的詳細資訊、請參閱《_ ONTAP 效能監控電源指南_》。
 
-http://["《效能監控電源指南》（英文）ONTAP"]
+http://docs.netapp.com/ontap-9/topic/com.netapp.doc.pow-perf-mon/home.html["《效能監控電源指南》（英文）ONTAP"]

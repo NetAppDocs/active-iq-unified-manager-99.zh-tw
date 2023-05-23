@@ -37,6 +37,6 @@ summary: 如果您是Windows使用者、可以下載並安裝工具、從Unified
 
 *相關資訊*
 
-https://["Filezilla - https://filezilla-project.org/"]
+https://filezilla-project.org/["Filezilla - https://filezilla-project.org/"]
 
-http://["WinSCP - http://winscp.net"]
+http://winscp.net["WinSCP - http://winscp.net"]
