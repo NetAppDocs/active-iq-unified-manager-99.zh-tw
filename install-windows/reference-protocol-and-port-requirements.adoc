@@ -172,40 +172,49 @@ LDAPS
 636
  a| 
 用於安全的LDAP通訊。
+
+
+
  a| 
 郵件伺服器
-
-
-
  a| 
 SMTP
  a| 
 25
  a| 
 用於傳送警示通知電子郵件。
+
+
+
  a| 
 SNMP設陷傳送者
-
-
-
  a| 
 SNMPv1或v3
  a| 
 162/udp
  a| 
 用於傳送警示通知SNMP設陷。
+
+
+
  a| 
 外部資料提供者伺服器
-
-
-
  a| 
 TCP
  a| 
 2003年
  a| 
 用於傳送效能資料給外部資料供應商、例如Graphite。
+
+
+
  a| 
 NTP伺服器
+ a| 
+NTP
+ a| 
+123/UDP
+ a| 
+用於同步Unified Manager伺服器與外部NTP時間伺服器上的時間。（僅限VMware系統）
 
 |===
