@@ -14,7 +14,7 @@ settings:
     url: "/active-iq-unified-manager-98"
   - version-number: '9.7'
     url: "/active-iq-unified-manager-97"
-  langs: zh-tw,us-en,ja-jp,ko-kr,zh-cn,de-de,es-es,fr-fr,it-it
+  langs: zh-tw,us-en,de-de,es-es,fr-fr,it-it,pt-br,ja-jp,ko-kr,zh-cn
 sidebar:
   entries:
   - title: 部分9.9文件Active IQ Unified Manager
