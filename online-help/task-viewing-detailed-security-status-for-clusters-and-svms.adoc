@@ -30,5 +30,5 @@ summary: 「安全性」頁面會顯示所有叢集的高層安全性狀態、�
 ** 每個叢集所使用的叢集驗證方法
 
 
-. 請參閱 http://www.netapp.com/us/media/tr-4569.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"] 如需如何使所有叢集、SVM及Volume符合NetApp安全建議的指示。
+. 如需如何讓所有叢集、 SVM 和 Volume 符合 NetApp 安全建議的指示、請參閱 https://www.netapp.com/pdf.html?item=/media/10674-tr4569pdf.pdf["《NetApp ONTAP 資訊安全強化指南》（英文）9"^] 。
 
