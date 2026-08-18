@@ -15,12 +15,14 @@ summary: 如果Unified Manager使用者介面未運作、或是您需要執行�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須已安裝並設定Unified Manager。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 在閒置15分鐘後、維護主控台會將您登出。
@@ -32,6 +34,7 @@ summary: 如果Unified Manager使用者介面未運作、或是您需要執行�
 ====
 
 
+[[steps]]
 == 步驟
 
 . 請依照下列步驟存取維護主控台：

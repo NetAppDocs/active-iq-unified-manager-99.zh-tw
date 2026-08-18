@@ -15,6 +15,7 @@ summary: 若要檢視及疑難排解虛擬機器的效能（VMs）、必須在Ac
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 在新增或檢視vCenter Server之前、請確認下列事項：
@@ -33,12 +34,14 @@ summary: 若要檢視及疑難排解虛擬機器的效能（VMs）、必須在Ac
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 對於每個新增和探索的vCenter Server、Unified Manager都會收集組態資料、例如vCenter Server和ESXi伺服器詳細資料、ONTAP 資訊區對應、資料存放區詳細資料、以及託管的VM數量。它進一步收集元件的效能指標。
 
 
 
+[[steps]]
 == 步驟
 
 . 移至* VMware*>* vCenter*、檢查清單上是否有vCenter Server可用。
@@ -82,6 +85,7 @@ summary: 若要檢視及疑難排解虛擬機器的效能（VMs）、必須在Ac
 
 
 
+[[results]]
 == 結果
 
 * vCenter Server資料收集開始*

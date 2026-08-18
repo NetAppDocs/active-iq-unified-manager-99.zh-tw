@@ -15,6 +15,7 @@ summary: 您可以使用命令列介面來安裝Unified Manager、而無需使�
 
 
 
+[[steps]]
 == 步驟
 
 . 使用預設的本機系統管理員帳戶登入Windows命令列介面。

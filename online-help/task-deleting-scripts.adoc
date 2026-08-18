@@ -15,6 +15,7 @@ summary: 當指令碼不再需要或有效時、您可以從Unified Manager刪�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 當指令碼不再需要或有效時、您可以從Unified Manager刪�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*儲存管理*>*指令碼*。

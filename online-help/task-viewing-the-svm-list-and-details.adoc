@@ -15,18 +15,21 @@ summary: 從「Health：All Storage VM」（健全狀況：所有儲存VM）檢�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可以檢視SVM詳細資料、例如SVM的容量、效率和組態。您也可以檢視相關裝置的相關資訊、以及該SVM的相關警示。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下* Storage *>* Storage VMS*。

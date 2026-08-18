@@ -15,6 +15,7 @@ summary: 「說明」包含Active IQ Unified Manager 有關包含在功能方面
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可從每個索引標籤和Unified Manager使用者介面的功能表列取得說明。
@@ -23,6 +24,7 @@ summary: 「說明」包含Active IQ Unified Manager 有關包含在功能方面
 
 
 
+[[choices]]
 == 選擇
 
 * 若要深入瞭解特定欄位或參數、請按一下 image:../media/helpicon-um60.gif["上下文相關說明的圖示"]。

@@ -15,12 +15,14 @@ summary: 您可以在Workflow Automation中檢查資料來源取得是否成功�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須指派「系統管理員」角色或「工作流程自動化」中的「架構設計師」角色、才能執行此工作。
 
 
 
+[[steps]]
 == 步驟
 
 . 從Workflow Automation UI中、選取*執行*>*資料來源*。

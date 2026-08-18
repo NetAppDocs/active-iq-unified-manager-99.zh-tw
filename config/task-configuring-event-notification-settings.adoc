@@ -15,6 +15,7 @@ summary: 您可以設定Unified Manager在事件產生或事件指派給使用�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具備下列資訊：
@@ -34,6 +35,7 @@ summary: 您可以設定Unified Manager在事件產生或事件指派給使用�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左側導覽窗格中、按一下*一般*>*通知*。

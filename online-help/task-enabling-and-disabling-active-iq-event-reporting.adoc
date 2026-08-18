@@ -15,12 +15,14 @@ summary: 根據預設、會在Unified Manager使用者介面中產生及顯示�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 停用此功能時、Unified Manager Active IQ 會立即停止接收不實的平台事件。
@@ -29,6 +31,7 @@ summary: 根據預設、會在Unified Manager使用者介面中產生及顯示�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左側導覽窗格中、按一下*一般*>*功能設定*。

@@ -15,6 +15,7 @@ Create Storage Virtual Machine Peers（建立儲存虛擬機器對等端點）�
 
 
 
+[[select-source]]
 == 選取來源
 
 「選取來源」面板可讓您選取儲存VM對等端點中的來源或主要儲存VM。
@@ -61,12 +62,14 @@ Create Storage Virtual Machine Peers（建立儲存虛擬機器對等端點）�
 
 
 
+[[select-protection-destinations]]
 == 選取「保護目的地」
 
 Create Storage Virtual Machine對等端點精靈的Select Protection Destinations（選取保護目的地）面板可讓您選取要複製或複寫資料的位置。每個叢集只能在一個目的地儲存VM上建立對等端點。
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：

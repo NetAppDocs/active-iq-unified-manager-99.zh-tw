@@ -15,12 +15,14 @@ summary: 若對安裝在Unified Manager伺服器上的HTTPS安全性憑證進行
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 變更安全性憑證並重新啟動Unified Manager伺服器之後、SAML驗證將無法運作、使用者將無法存取Unified Manager圖形介面。您必須更新IDP伺服器和Unified Manager伺服器上的SAML驗證設定、才能重新啟用使用者介面的存取。
 
 
 
+[[steps]]
 == 步驟
 
 . 登入維護主控台。

@@ -15,6 +15,7 @@ summary: 若要使用Unified Manager、您必須先設定初始設定選項、�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須執行下列作業：
@@ -25,6 +26,7 @@ summary: 若要使用Unified Manager、您必須先設定初始設定選項、�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 僅當您第一次存取Web UI時、才會顯示「《程式碼統一化管理程式入門」頁面。Active IQ以下頁面來自VMware的安裝。
@@ -35,6 +37,7 @@ image::../media/first-experience-wizard.png[首次體驗精靈]
 
 
 
+[[steps]]
 == 步驟
 
 . 在「支援初始設定」頁面中、輸入維護使用者電子郵件地址、SMTP伺服器主機名稱及任何其他的SMTP選項、以及NTP伺服器（僅限VMware安裝）Active IQ Unified Manager 。然後按一下 * 繼續 * 。
@@ -56,6 +59,7 @@ image::../media/first-experience-wizard.png[首次體驗精靈]
 
 
 
+[[results]]
 == 結果
 
 隨即關閉「使用入門」頁面、並顯示「Unified Manager儀表板」頁面。

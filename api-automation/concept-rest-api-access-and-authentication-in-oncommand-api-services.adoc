@@ -15,6 +15,7 @@ summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設�
 
 
 
+[[rest-access]]
 == REST存取
 
 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設計平台來存取Unified Manager REST API。例如、登入Unified Manager之後、您可以在任何瀏覽器中輸入URL、以擷取所有管理工作站的屬性、例如管理站台名稱、金鑰和IP位址。
@@ -104,6 +105,7 @@ summary: 您可以使用任何可發出HTTP要求的網頁瀏覽器或程式設�
 
 
 
+[[authentication]]
 == 驗證
 
 Unified Manager支援API的基本HTTP驗證配置。為了確保資訊流程安全（要求和回應）、REST API只能透過HTTPS存取。API伺服器會為所有用戶端提供自我簽署的SSL憑證、以便進行伺服器驗證。此憑證可由自訂憑證（或CA憑證）取代。

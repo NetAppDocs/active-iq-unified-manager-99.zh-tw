@@ -15,6 +15,7 @@ summary: 您可以使用「使用者」頁面新增本機使用者或資料庫�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員角色。
@@ -27,12 +28,14 @@ summary: 您可以使用「使用者」頁面新增本機使用者或資料庫�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 如果您從Windows Active Directory新增群組、則除非停用巢狀子群組、否則所有的直接成員和巢狀子群組都可以驗證Unified Manager。如果您從OpenLDAP或其他驗證服務新增群組、則只有該群組的直接成員可以驗證Unified Manager。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左側導覽窗格中、按一下*一般*>*使用者*。

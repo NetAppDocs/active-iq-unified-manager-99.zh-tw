@@ -15,12 +15,14 @@ summary: 儲存檢視之後、您可以下載Excel工作簿格式（.xlsx\）。
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您只能使用上傳Excel活頁簿檔案 `.xlsx` 擴充：
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 例如、您可以在報告中使用的一些進階Excel功能包括：
@@ -52,6 +54,7 @@ summary: 儲存檢視之後、您可以下載Excel工作簿格式（.xlsx\）。
 ====
 
 
+[[steps]]
 == 步驟
 
 . 開啟您要做為報告基礎的預設、自訂或儲存檢視。

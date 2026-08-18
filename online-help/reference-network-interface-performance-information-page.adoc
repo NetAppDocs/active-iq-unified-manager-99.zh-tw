@@ -15,6 +15,7 @@ summary: 使用「網路介面/效能資訊」頁面可檢視網路介面（LIF�
 
 
 
+[[network-interface-attributes]]
 == 網路介面屬性
 
 * * IP位址*

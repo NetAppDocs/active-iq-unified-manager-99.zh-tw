@@ -15,18 +15,21 @@ summary: 您可以編輯現有的保護關係、以變更最大傳輸率、保�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員或儲存管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 選取的磁碟區必須是保護關係目的地。如果選取來源磁碟區、負載共享磁碟區或非SnapMirror或SnapVault 非相依關係目的地的磁碟區、您就無法編輯關係。
 
 
 
+[[steps]]
 == 步驟
 
 . 從「* Volume Relationations*」頁面中、選取「Volume」清單中您要編輯其關係設定的同一個SVM中的一或多個Volume、然後從工具列中選取「*編輯*」。

@@ -21,6 +21,7 @@ summary: 您可以設定警示、以便在產生與磁碟區容量相關的事�
 
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列Volume容量臨界值條件：
@@ -47,6 +48,7 @@ summary: 您可以設定警示、以便在產生與磁碟區容量相關的事�
 
 
 
+[[snapshot-copies]]
 == Snapshot複本
 
 Snapshot Copies區域可讓您針對Volume中的Snapshot複本、設定下列臨界值條件。
@@ -67,6 +69,7 @@ Snapshot Copies區域可讓您針對Volume中的Snapshot複本、設定下列臨
 
 
 
+[[qtree-quota-area]]
 == qtree配額區域
 
 Qtree Quota區域可讓您針對選取的磁碟區設定下列qtree配額臨界值條件：
@@ -83,6 +86,7 @@ Qtree Quota區域可讓您針對選取的磁碟區設定下列qtree配額臨界�
 
 
 
+[[growth-area]]
 == 成長領域
 
 成長區可讓您針對Volume成長設定下列臨界值條件：
@@ -108,6 +112,7 @@ Qtree Quota區域可讓您針對選取的磁碟區設定下列qtree配額臨界�
 
 
 
+[[inodes-area]]
 == inode區域
 
 inode區域可讓您設定下列inode臨界值條件：
@@ -130,6 +135,7 @@ inode區域可讓您設定下列inode臨界值條件：
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您針對選取的Volume執行下列工作：

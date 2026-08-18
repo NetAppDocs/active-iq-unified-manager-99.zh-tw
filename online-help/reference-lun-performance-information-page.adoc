@@ -15,6 +15,7 @@ summary: 使用「LUN/效能資訊」頁面可檢視LUN的實體和邏輯屬性�
 
 
 
+[[lun-attributes]]
 == LUN屬性
 
 * * WWW*

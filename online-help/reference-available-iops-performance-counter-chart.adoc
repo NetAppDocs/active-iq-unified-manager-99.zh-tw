@@ -21,12 +21,14 @@ summary: 可用的IOPS計數器圖表會顯示所選儲存物件上目前可用�
 
 
 
+[[available-iops-total-counter-chart]]
 == 可用IOPS -總計計數器圖表
 
 顯示所選儲存物件上目前可用（可用）的每秒輸入/輸出作業數。此數值是Unified Manager計算出物件可執行的IOPS總計減去目前使用的IOPS的結果。
 
 
 
+[[zoom-view-button]]
 == *縮放檢視*按鈕
 
 顯示計數器圖表資料的放大檢視。

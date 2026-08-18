@@ -22,6 +22,7 @@ summary: 您可以啟用或停用Active IQ Unified Manager 「資訊」儀表板
 
 
 
+[[customizing-settings]]
 == 自訂設定
 
 啟用此功能時、您可以自訂適用於ONTAP 您的支援環境的法規遵循監控設定。這些設定會觸發相關的安全性事件和管理動作。請遵循下列步驟：

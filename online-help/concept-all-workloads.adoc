@@ -30,12 +30,14 @@ Unified Manager只會在儲存工作負載上開始執行I/O作業之後、才�
 
 
 
+[[adding-or-provisioning-storage-workloads]]
 == 新增或配置儲存工作負載
 
 您可以新增或配置儲存工作負載至支援的LUN（同時支援iSCSI和FCP傳輸協定）、NFS檔案共用和SMB共用。
 
 
 
+[[viewing-and-filtering-workloads]]
 == 檢視及篩選工作負載
 
 在「All工作負載」畫面上、您可以檢視資料中心中的所有工作負載、或根據其PSL或名稱搜尋特定的儲存工作負載。您可以使用篩選圖示輸入搜尋的特定條件。您可以依不同的篩選條件（例如主機叢集或儲存VM）進行搜尋。*容量總計*選項可依工作負載的總容量（以MB為單位）進行篩選。不過、在此案例中、傳回的工作負載數量可能會有所不同、因為總容量是以位元組層級進行比較。
@@ -48,6 +50,7 @@ link:concept-troubleshooting-workloads-using-the-workload-analyzer.html["使用�
 
 
 
+[[analyzing-performance-and-capacity-criteria-for-a-workload]]
 == 分析工作負載的效能與容量條件
 
 您可以按一下「*效能檢視*」欄中的橫條圖圖示、檢視工作負載的效能資訊、以協助疑難排解。若要在「工作負載分析」頁面上檢視效能與容量圖表以分析物件、請按一下「*分析工作負載*」按鈕。

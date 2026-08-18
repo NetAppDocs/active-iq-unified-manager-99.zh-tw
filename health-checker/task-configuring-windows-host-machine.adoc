@@ -15,18 +15,21 @@ summary: 您需要設定Active IQ Unified Manager 安裝了支援功能的Window
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您應該清除主機上任何先前的組態。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 如果您嘗試在全新安裝的Windows上啟動iSCSI啟動器、系統會提示您確認、並在確認時顯示「iSCSI內容」對話方塊。如果是現有的Windows安裝、則會顯示iSCSI內容對話方塊、其中目標為非使用中或嘗試連線。因此、您必須確保移除Windows主機上所有先前的組態。
 
 
 
+[[steps]]
 == 步驟
 
 . 清除主機上任何先前的組態。

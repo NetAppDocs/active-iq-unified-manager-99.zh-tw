@@ -15,6 +15,7 @@ summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 下列情況不會顯示*保護*功能表：
@@ -33,6 +35,7 @@ summary: 您可以SnapVault 使用「Volume / Health詳細資料」頁面來建�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、在您要保護的拓撲檢視中、以滑鼠右鍵按一下磁碟區。

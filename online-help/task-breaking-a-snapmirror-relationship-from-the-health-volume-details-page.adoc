@@ -15,6 +15,7 @@ summary: 您可以從Volume / Health詳細資料頁面中斷保護關係、並�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以從Volume / Health詳細資料頁面中斷保護關係、並�
 
 
 
+[[steps]]
 == 步驟
 
 . 在* Volume / Health*詳細資料頁面的* Protection（保護）*索引標籤中、從拓撲中選取您要中斷的SnapMirror關係。

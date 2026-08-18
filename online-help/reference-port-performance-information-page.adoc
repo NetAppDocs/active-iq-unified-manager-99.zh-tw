@@ -15,6 +15,7 @@ summary: 使用「Port/Performance Information（連接埠/效能資訊）」頁
 
 
 
+[[port-attributes]]
 == 連接埠屬性
 
 * * WWW*

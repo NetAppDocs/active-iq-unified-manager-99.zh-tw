@@ -15,6 +15,7 @@ summary: 在收到「Volume Space Full」錯誤事件之後、您將在「Event 
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 在收到「Volume Space Full」錯誤事件之後、您將在「Event 
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 在此範例中、您已在Unified ManagerEvent Management詳細目錄頁面上看到Volume Space Full錯誤事件、並按一下事件名稱。
@@ -38,6 +40,7 @@ summary: 在收到「Volume Space Full」錯誤事件之後、您將在「Event 
 
 
 
+[[steps]]
 == 步驟
 
 . 在「*事件*詳細資料」頁面中、按一下「來源」欄位中的磁碟區名稱、即可檢視受影響磁碟區的詳細資料。

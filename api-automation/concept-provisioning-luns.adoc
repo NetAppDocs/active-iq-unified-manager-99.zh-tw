@@ -259,6 +259,7 @@ Json輸出會顯示一個工作物件金鑰、您可以使用該金鑰來驗證�
 ----
 
 
+[[troubleshooting-steps-for-failure-in-lun-creation-or-mapping]]
 == LUN建立或對應失敗的疑難排解步驟
 
 完成此工作流程後、您可能仍會看到LUN建立失敗。即使成功建立LUN、由於無法在您建立LUN的節點上使用SAN LIF或存取端點、因此使用igroup的LUN對應也可能失敗。如果發生故障、您會看到下列訊息：

@@ -15,6 +15,7 @@ summary: 下載安裝檔案之後、您可以將Unified Manager部署為虛擬�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您應該檢閱系統需求。在部署Unified Manager虛擬應用裝置之前、請先進行必要的變更。
@@ -46,6 +47,7 @@ xref:reference-vmware-software-and-installation-requirements.adoc[VMware軟體�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 從Unified Manager 9.8開始、VMware Tools已被Open VM Tools取代  `open-vm-tools`）。您不需要在安裝程序中安裝VMware Tools、因為 `open-vm-tools` 隨附於Unified Manager安裝套件中。
@@ -56,6 +58,7 @@ xref:reference-vmware-software-and-installation-requirements.adoc[VMware軟體�
 
 
 
+[[steps]]
 == 步驟
 
 . 在vSphere Client中、按一下*檔案*>*部署OVF範本*。
@@ -123,6 +126,7 @@ VM主控台會顯示Unified Manager Web UI的URL。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 您可以存取Web UI來執行Unified Manager的初始設定、如所述 link:../config/task-using-the-maintenance-console.html["使用維護主控台"]。

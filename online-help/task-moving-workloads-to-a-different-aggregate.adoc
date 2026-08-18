@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager來協助識別目前工作負載所在�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -25,6 +26,7 @@ summary: 您可以使用Unified Manager來協助識別目前工作負載所在�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 這些步驟可協助您識別下列資源、以便將高效能工作負載移至使用率較低的Aggregate：
@@ -35,6 +37,7 @@ summary: 您可以使用Unified Manager來協助識別目前工作負載所在�
 
 
 
+[[steps]]
 == 步驟
 
 . 識別叢集中使用率最低的集合體：
@@ -80,6 +83,7 @@ Aggregate詳細資料會顯示在「效能/ Aggregate Explorer」頁面中。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 幾天後、檢查您是否從這個節點或Aggregate收到相同類型的事件。

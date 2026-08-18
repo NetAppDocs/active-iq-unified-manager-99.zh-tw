@@ -15,18 +15,21 @@ summary: 您可以設定Unified Manager傳送通知、提醒您環境中的事�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 部署Unified Manager並完成初始組態之後、您應該考慮設定環境、以觸發警示、並根據事件接收產生通知電子郵件或SNMP設陷。
 
 
 
+[[steps]]
 == 步驟
 
 . xref:task-configuring-event-notification-settings.adoc[設定事件通知設定]

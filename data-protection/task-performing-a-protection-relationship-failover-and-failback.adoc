@@ -15,6 +15,7 @@ summary: 當保護關係中的來源磁碟區因為硬體故障或災難而停�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 當保護關係中的來源磁碟區因為硬體故障或災難而停�
 
 
 
+[[steps]]
 == 步驟
 
 . xref:task-breaking-a-snapmirror-relationship-from-the-health-volume-details-page.adoc[打破SnapMirror關係]。

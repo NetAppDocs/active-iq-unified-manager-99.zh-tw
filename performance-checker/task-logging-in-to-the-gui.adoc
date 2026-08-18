@@ -15,6 +15,7 @@ summary: 您可以使用支援的網頁瀏覽器登入Unified Manager UI。
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 網頁瀏覽器必須符合最低需求。
@@ -26,12 +27,14 @@ summary: 您可以使用支援的網頁瀏覽器登入Unified Manager UI。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您會在閒置1小時後自動登出工作階段。此時間範圍可在*一般*>*功能設定*下設定。
 
 
 
+[[steps]]
 == 步驟
 
 . 在網頁瀏覽器中輸入URL、其中 `URL` 是Unified Manager伺服器的IP位址或完整網域名稱（FQDN）：

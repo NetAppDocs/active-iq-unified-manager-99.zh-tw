@@ -15,6 +15,7 @@ summary: 如果您先前在Red Hat Enterprise Linux 7.x系統上安裝Unified Ma
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 下列兩個選項的差異在於：在一種情況下、您要在新的8.x伺服器上執行Unified Manager還原、而在另一種情況下、您要在同一部伺服器上執行還原作業。

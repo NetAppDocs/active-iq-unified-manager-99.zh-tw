@@ -15,6 +15,7 @@ summary: 您可以在實體或虛擬Red Hat Enterprise Linux或CentOS平台上�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您要安裝Unified Manager的系統必須符合系統和軟體需求。
@@ -31,12 +32,14 @@ xref:reference-red-hat-and-centos-software-and-installation-requirements.adoc[Re
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 Red Hat Enterprise Linux或CentOS系統可能已安裝所需支援軟體的所有必要版本（Java、MySQL、其他公用程式）、僅安裝部分必要軟體、或是新安裝的系統、但未安裝任何必要軟體。
 
 
 
+[[steps]]
 == 步驟
 
 . 登入您要安裝Unified Manager的伺服器。
@@ -146,6 +149,7 @@ Log in to Unified Manager in a web browser by using following details:
 
 
 
+[[after-you-finish]]
 == 完成後
 
 存取Web UI以變更umadmin使用者的預設密碼、並執行Unified Manager的初始設定、如所述 link:../config/task-using-the-maintenance-console.html["使用維護主控台"]。

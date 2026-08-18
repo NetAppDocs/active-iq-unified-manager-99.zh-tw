@@ -15,6 +15,7 @@ summary: 使用此頁面可檢視磁碟區的實體和邏輯屬性清單。這�
 
 
 
+[[volume-attributes]]
 == Volume屬性
 
 * *類型*

@@ -21,6 +21,7 @@ summary: 「Volume臨界值」頁面可讓您設定受監控磁碟區的全域�
 
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列Volume容量臨界值條件。請注意、在磁碟區上啟用「自動擴充」時、容量臨界值會根據自動擴充所設定的最大磁碟區大小而非原始磁碟區大小而被視為違反。
@@ -62,6 +63,7 @@ summary: 「Volume臨界值」頁面可讓您設定受監控磁碟區的全域�
 
 
 
+[[snapshot-copies-area]]
 == Snapshot複本區域
 
 Snapshot Copies區域可讓您針對Volume中的Snapshot複本設定下列臨界值條件：
@@ -122,6 +124,7 @@ Snapshot Copies區域可讓您針對Volume中的Snapshot複本設定下列臨界
 |===
 
 
+[[qtree-quota-area]]
 == qtree配額區域
 
 Qtree配額區域可讓您設定下列Volume配額臨界值條件：
@@ -150,6 +153,7 @@ Qtree配額區域可讓您設定下列Volume配額臨界值條件：
 
 
 
+[[growth-area]]
 == 成長領域
 
 成長區可讓您針對Volume成長設定下列臨界值條件：
@@ -185,6 +189,7 @@ Qtree配額區域可讓您設定下列Volume配額臨界值條件：
 
 
 
+[[inodes-area]]
 == inode區域
 
 inode區域可讓您設定下列inode臨界值條件：

@@ -15,6 +15,7 @@ summary: 使用NVMe命名空間/效能資訊頁面、檢視命名空間的實體
 
 
 
+[[nvme-namespace-attributes]]
 == NVMe命名空間屬性
 
 * *叢集*

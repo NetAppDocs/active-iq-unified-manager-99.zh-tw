@@ -15,6 +15,7 @@ summary: 您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須擁有root使用者存取權、才能存取要從中移除Unified Manager的伺服器。
@@ -24,6 +25,7 @@ summary: 您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主�
 
 
 
+[[steps]]
 == 步驟
 
 . 以root使用者身分登入您要移除Unified Manager的伺服器。
@@ -36,6 +38,7 @@ summary: 您可以使用單一命令、從Red Hat Enterprise Linux或CentOS主�
 
 
 
+[[results]]
 == 結果
 
 完成此作業後、軟體即會移除。的所有資料 `/opt/netapp/data` 目錄會移至 `/opt/netapp/data/BACKUP` 解除安裝後的資料夾。解除安裝Unified Manager也會移除Java和MySQL套件、除非系統上的任何其他應用程式都需要和使用這些套件。不過、MySQL資料不會刪除。

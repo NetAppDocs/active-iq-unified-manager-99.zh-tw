@@ -15,12 +15,14 @@ summary: 當您顯示儲存容錯移轉相關事件的「事件詳細資料」�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 在此範例案例中、「事件詳細資料」頁面上提供的事件摘要包含下列關於儲存容錯移轉互連連結中斷情況的資訊：
@@ -50,6 +52,7 @@ Cause: At least one storage failover interconnected link
 
 
 
+[[steps]]
 == 步驟
 
 . 在「*事件*詳細資料」頁面中、您可以按一下「來源」欄位中所指定事件的連結、以取得可能與儲存容錯移轉互連連結中斷情況相關的其他事件詳細資料。
@@ -64,6 +67,7 @@ Cause: At least one storage failover interconnected link
 
 
 
+[[after-you-finish]]
 == 完成後
 
 使用HA詳細資料中的節點位置資訊、要求或親自完成受影響HA配對節點上儲存容錯移轉問題的實體檢查與修復。

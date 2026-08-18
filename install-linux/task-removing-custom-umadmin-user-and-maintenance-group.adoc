@@ -15,12 +15,14 @@ summary: 如果您在安裝Unified Manager之前建立自訂主目錄來定義�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 標準Unified Manager解除安裝不會移除自訂定義的umadmin使用者和維護帳戶。您必須手動刪除這些項目。
 
 
 
+[[steps]]
 == 步驟
 
 . 以root使用者身分登入Red Hat Enterprise Linux伺服器。

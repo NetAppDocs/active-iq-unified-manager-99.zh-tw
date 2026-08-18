@@ -17,6 +17,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[annotations-tab]]
 == 註釋索引標籤
 
 「附註」索引標籤可讓您在Unified Manager中檢視、建立、編輯或刪除附註。
@@ -29,6 +30,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[summary-area]]
 == 摘要區域
 
 您可以檢視所選註釋的下列詳細資料：
@@ -49,6 +51,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[annotationvalues-pairs]]
 == annotation=值配對
 
 顯示可用於所選註釋的註釋值配對和相關儲存物件清單。
@@ -73,6 +76,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[object-associations-via-rules]]
 == 透過規則建立物件關聯
 
 顯示所選註釋的註釋規則清單、以及相關的儲存物件。
@@ -101,6 +105,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[manual-object-associations]]
 == 手動物件關聯
 
 顯示您已手動設定並與儲存物件相關聯的註釋清單。
@@ -125,6 +130,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 您必須具有應用程式管理員或儲存管理員角色。對於預先定義的註釋、您無法新增或刪除值。
@@ -149,12 +155,14 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[annotation-rules-tab]]
 == 註釋規則索引標籤
 
 「附註規則」索引標籤會顯示您建立的附註規則、以便為儲存物件加上附註。您可以執行新增、編輯、刪除或重新排序註釋規則等工作。您也可以檢視符合附註規則的儲存物件數目。
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 您必須具有應用程式管理員或儲存管理員角色。
@@ -179,6 +187,7 @@ summary: 「附註」頁面可讓您在Unified Manager中建立附註、以用�
 
 
 
+[[list-view]]
 == 清單檢視
 
 清單檢視會以表格格式顯示您在Unified Manager伺服器中建立的註釋規則。您可以使用欄篩選來自訂顯示的資料。「附註規則」索引標籤的清單檢視和「附註」索引標籤中「相關規則」區段的清單檢視包含下列欄位：

@@ -15,6 +15,7 @@ summary: 您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須擁有Active IQ Unified Manager 安裝了此功能的Linux主機的root使用者認證資料。
@@ -25,6 +26,7 @@ summary: 您可以在Active IQ Unified Manager 已在ONTAP 任一個叢集設定
 
 
 
+[[steps]]
 == 步驟
 
 . 使用Secure Shell連線Active IQ Unified Manager 至該系統的IP位址或FQDN。

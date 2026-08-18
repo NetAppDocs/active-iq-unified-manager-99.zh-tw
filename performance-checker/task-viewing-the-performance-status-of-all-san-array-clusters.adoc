@@ -15,18 +15,21 @@ summary: '您可以使用「Performance：All Clusters"（效能：所有叢集�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可以在「Performance：All Clusterss」（效能：所有叢集）檢視中檢視所有SAN陣列叢集的總覽資訊、並在「叢集/效能總管」頁面中檢視詳細資料。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。

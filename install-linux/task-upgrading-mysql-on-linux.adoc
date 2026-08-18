@@ -15,18 +15,21 @@ summary: 您可以在安裝Unified Manager的Linux伺服器上升級至較新版
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須擁有安裝Unified Manager的Linux系統的root權限。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您只能將MySQL 8.0.25的基礎版本升級至更新版本、以進行次要更新。
 
 
 
+[[steps]]
 == 步驟
 
 . 以root使用者身分登入Unified Manager主機。

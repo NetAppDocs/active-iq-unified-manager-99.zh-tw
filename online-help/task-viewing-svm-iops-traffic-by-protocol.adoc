@@ -15,6 +15,7 @@ summary: 您可以使用「Performance（效能）/SVM Explorer（SVM檔案總�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 此外、「IOPS -傳輸協定」圖表會詳細比較SVM上使用的每個傳輸協定的IOPS流量。提供下列通訊協定：
@@ -28,6 +29,7 @@ summary: 您可以使用「Performance（效能）/SVM Explorer（SVM檔案總�
 
 
 
+[[steps]]
 == 步驟
 
 . 在所選SVM的「*效能/SVM檔案總管*」頁面中、從IOPS圖表中、從下拉式功能表中選取*傳輸協定*。

@@ -449,6 +449,7 @@ SVM
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -525,6 +526,7 @@ SVM
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -661,6 +663,7 @@ SVM
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===

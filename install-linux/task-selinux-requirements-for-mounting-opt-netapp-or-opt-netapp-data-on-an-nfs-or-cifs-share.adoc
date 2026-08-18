@@ -15,6 +15,7 @@ summary: 如果您計畫在NAS或SAN裝置上掛載/opp/netapp或/opp/NetApp/dat
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 如果打算掛載 `/opt/netapp` 或 `/opt/netapp/data` 您必須從根檔案系統以外的任何位置、在環境中啟用SELinux、為掛載的目錄設定正確的內容。請依照下列兩個步驟來設定及確認正確的SELinux內容。

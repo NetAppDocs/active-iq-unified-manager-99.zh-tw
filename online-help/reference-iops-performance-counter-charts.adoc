@@ -30,6 +30,7 @@ IOPS計數器圖表會顯示所選儲存物件每秒處理的輸入/輸出作業
 
 
 
+[[iops-total-counter-chart]]
 == IOPS -總計計數器圖表
 
 顯示每秒處理的輸入/輸出作業數。
@@ -38,6 +39,7 @@ IOPS計數器圖表會顯示所選儲存物件每秒處理的輸入/輸出作業
 
 
 
+[[iops-breakdown-counter-chart]]
 == IOPS -明細計數器圖表
 
 顯示與讀取、寫入及其他IOPS區隔相同的IOPS資料。
@@ -48,12 +50,14 @@ IOPS計數器圖表會顯示所選儲存物件每秒處理的輸入/輸出作業
 
 
 
+[[iops-protocols-counter-chart]]
 == IOPS -傳輸協定計數器圖表
 
 顯示相同的IOPS資料、但對於SVM、效能資料會分成CIFS、NFS、FCP、NVMe和iSCSI傳輸協定流量的個別元件。
 
 
 
+[[iopstb-total-counter-chart]]
 == IOPS/TB -總計計數器圖表
 
 根據磁碟區所耗用的邏輯空間總計（以TB為單位）、顯示每秒處理的輸入/輸出作業數。也稱為I/O密度、此計數器可測量特定儲存容量所能提供的效能。
@@ -62,6 +66,7 @@ IOPS計數器圖表會顯示所選儲存物件每秒處理的輸入/輸出作業
 
 
 
+[[zoom-view-button]]
 == *縮放檢視*按鈕
 
 顯示計數器圖表資料的放大檢視。

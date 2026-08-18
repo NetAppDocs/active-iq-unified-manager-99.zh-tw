@@ -15,6 +15,7 @@ summary: 您可以使用「Volume上的Snapshot複本」對話方塊來檢視Sna
 
 
 
+[[list-view]]
 == 清單檢視
 
 清單檢視會以表格格式顯示有關磁碟區上Snapshot複本的資訊。您可以使用欄篩選來自訂顯示的資料。
@@ -43,6 +44,7 @@ summary: 您可以使用「Volume上的Snapshot複本」對話方塊來檢視Sna
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您執行下列工作：

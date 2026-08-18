@@ -15,6 +15,7 @@ summary: 您可以顯示Unified Manager正在監控之叢集上可用的所有Qo
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下「*儲存設備*>* QoS原則群組*」。

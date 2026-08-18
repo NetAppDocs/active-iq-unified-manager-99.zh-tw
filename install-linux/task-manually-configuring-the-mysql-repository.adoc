@@ -15,6 +15,7 @@ summary: 如果您安裝Unified Manager的系統無法存取MySQL Community Edit
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
@@ -26,6 +27,7 @@ MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
 ====
 
 
+[[steps]]
 == 步驟
 
 . 下載適合您安裝的MySQL儲存庫。若為Red Hat Enterprise Linux 7、請從以下網址下載： `+wget http://repo.mysql.com/yum/mysql-8.0-community/el/7/x86_64/mysql80-community-release-el7-3.noarch.rpm+` 若為版本8、請從以下網址下載： `+wget http://repo.mysql.com/yum/mysql-8.0-community/el/8/x86_64/mysql80-community-release-el8-1.noarch.rpm+`
@@ -34,6 +36,7 @@ MySQL儲存庫可讓您存取系統上必須安裝的必要MySQL軟體。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 對於Red Hat Enterprise Linux 8系統、如果您的內部儲存庫中有Java-11-OpenJDK、p7zip及AppStream儲存庫所提供的其他軟體套件、則必須停用AppStream儲存庫並安裝MySQL Community Server。執行下列命令：

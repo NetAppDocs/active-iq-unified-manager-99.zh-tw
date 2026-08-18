@@ -15,6 +15,7 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 在虛擬應用裝置上：
@@ -35,12 +36,14 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 這些步驟說明如何在虛擬應用裝置上建立備份檔案、將備份檔案複製到Red Hat Enterprise Linux或CentOS系統、然後將資料庫備份還原到新系統。
 
 
 
+[[steps]]
 == 步驟
 
 . 在虛擬應用裝置上、按一下*管理*>*資料庫備份*。
@@ -68,6 +71,7 @@ summary: 如果您想要變更執行Unified Manager的主機作業系統、可�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 您應該執行下列工作：

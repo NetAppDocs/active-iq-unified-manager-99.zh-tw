@@ -15,6 +15,7 @@ summary: 您可以使用Volume Performance Explorer頁面來檢視Volume的詳�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 此外、「延遲-叢集元件」圖表也會詳細比較每個叢集元件的延遲、以協助判斷每個元件對磁碟區總延遲的影響。此時會顯示下列叢集元件：
@@ -34,6 +35,7 @@ summary: 您可以使用Volume Performance Explorer頁面來檢視Volume的詳�
 
 
 
+[[steps]]
 == 步驟
 
 . 在所選磁碟區的「* Volume Performance Explorer-*」頁面中、從「延遲」圖表中、從下拉式功能表中選取「*叢集元件*」。

@@ -17,6 +17,7 @@ summary: 「資料庫備份」頁面會顯示Unified Manager所建立的備份�
 
 
 
+[[list-view]]
 == 清單檢視
 
 清單檢視會顯示可用備份檔案的相關資訊。
@@ -37,6 +38,7 @@ summary: 「資料庫備份」頁面會顯示Unified Manager所建立的備份�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 * *備份設定*

@@ -15,6 +15,7 @@ summary: 您可以從「Volume Relations（磁碟區關係）」頁面重新同�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以從「Volume Relations（磁碟區關係）」頁面重新同�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume Relationationation*」頁面中、選取一個或多個具有靜止關係的磁碟區、然後在工具列中按一下「*重新同步*」。

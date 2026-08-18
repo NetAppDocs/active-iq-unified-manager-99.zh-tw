@@ -17,6 +17,7 @@ summary: 「Workflow Automation」（工作流程自動化）頁面可讓您設�
 
 
 
+[[unified-manager-database-user]]
 == Unified Manager資料庫使用者
 
 此區域可讓您輸入將Unified Manager與Workflow Automation配對所需的資料庫使用者認證：
@@ -33,6 +34,7 @@ summary: 「Workflow Automation」（工作流程自動化）頁面可讓您設�
 
 
 
+[[oncommand-workflow-automation-credentials]]
 == 身分證明OnCommand Workflow Automation
 
 此區域可讓您輸入與Unified Manager配對所需的Workflow Automation帳戶認證：
@@ -57,6 +59,7 @@ summary: 「Workflow Automation」（工作流程自動化）頁面可讓您設�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您移除、儲存或取消設定選項：

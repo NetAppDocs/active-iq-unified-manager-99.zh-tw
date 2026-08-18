@@ -15,6 +15,7 @@ summary: 您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須擁有Active IQ Unified Manager 安裝了Windows主機的系統管理員權限、才能執行此作業。
@@ -25,6 +26,7 @@ summary: 您應該在Active IQ Unified Manager 已在ONTAP 任一個叢集中設
 
 
 
+[[steps]]
 == 步驟
 
 . 使用Power Shell連線Active IQ Unified Manager 至該系統的IP位址或完整網域名稱。

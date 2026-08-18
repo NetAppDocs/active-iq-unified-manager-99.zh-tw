@@ -15,6 +15,7 @@ summary: 當問題需要比AutoSupport 支援訊息更詳細的診斷與疑難�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須能夠存取支援服務組合、才能將其傳送給技術支援部門。
@@ -23,6 +24,7 @@ summary: 當問題需要比AutoSupport 支援訊息更詳細的診斷與疑難�
 
 
 
+[[steps]]
 == 步驟
 
 . 登入 NetApp 支援網站。

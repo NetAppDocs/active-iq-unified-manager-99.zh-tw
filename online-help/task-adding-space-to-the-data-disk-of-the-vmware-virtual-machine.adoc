@@ -15,6 +15,7 @@ summary: 如果您需要增加Unified Manager資料庫的資料磁碟空間、�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須擁有vSphere Client的存取權。
@@ -24,12 +25,14 @@ summary: 如果您需要增加Unified Manager資料庫的資料磁碟空間、�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 建議您在增加虛擬磁碟大小之前先備份虛擬機器。
 
 
 
+[[steps]]
 == 步驟
 
 . 在vSphere用戶端中、選取Unified Manager虛擬機器、然後新增更多磁碟容量至資料 `disk 3`。如需詳細資料、請參閱VMware文件。

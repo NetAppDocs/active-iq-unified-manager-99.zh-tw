@@ -15,18 +15,21 @@ summary: 如果您需要增加Unified Manager資料庫的磁碟空間量、可�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須擁有Windows系統管理員權限。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 建議您在新增磁碟空間之前先備份Unified Manager資料庫。
 
 
 
+[[steps]]
 == 步驟
 
 . 以系統管理員身分登入您要新增磁碟空間的Windows伺服器。
@@ -61,6 +64,6 @@ https://msdn.microsoft.com/en-us/library/dd163551.aspx["新增硬碟機"]
  a| 
 請遵循VMware主題中的步驟：
 
-https://kb.vmware.com/selfservice/microsites/search.do?language=en_US&cmd=displayKC&externalId=1004071["增加磁碟分割區的大小"]
+https://knowledge.broadcom.com/external/article/323136/increasing-the-size-of-a-virtual-disk-pa.html["增加磁碟分割區的大小"^]
 
 |===

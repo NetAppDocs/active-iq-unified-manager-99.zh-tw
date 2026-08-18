@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager來調查工作負載過度使用Aggregat
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -23,6 +24,7 @@ summary: 您可以使用Unified Manager來調查工作負載過度使用Aggregat
 
 
 
+[[steps]]
 == 步驟
 
 . 顯示「*事件詳細資料*」頁面以檢視事件的相關資訊。

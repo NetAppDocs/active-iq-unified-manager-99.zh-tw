@@ -15,6 +15,7 @@ summary: 如果您是UNIX或Linux使用者、可以使用Linux用戶端伺服器
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須是維護使用者才能執行此工作。
@@ -23,6 +24,7 @@ summary: 如果您是UNIX或Linux使用者、可以使用Linux用戶端伺服器
 
 
 
+[[steps]]
 == 步驟
 
 . 使用Linux用戶端伺服器、透過Telnet或主控台存取CLI。
@@ -55,6 +57,7 @@ SFTP
 
 
 
+[[examples]]
 == 範例
 
 下列範例使用scp擷取支援服務組合：

@@ -15,6 +15,7 @@ summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 下列情況不會顯示*保護*功能表：
@@ -35,6 +37,7 @@ summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*」詳細資料頁面的「* Protection *」索引標籤中、在拓撲檢視中按一下滑鼠右鍵、以檢視您要保護的磁碟區名稱。
@@ -62,6 +65,7 @@ summary: 您可以使用Volume / Health詳細資料頁面來建立SnapMirror關�
 
 
 
+[[results]]
 == 結果
 
 根據您在組態期間指定的目的地SVM或您在進階設定中啟用的選項、所產生的SnapMirror關係可能是以下幾種可能的差異之一：

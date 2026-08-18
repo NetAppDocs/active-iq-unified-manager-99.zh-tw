@@ -15,6 +15,7 @@ summary: 您可以從維護主控台重新啟動Unified Manager虛擬機器（VM
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 虛擬應用裝置應開啟電源。
@@ -23,12 +24,14 @@ summary: 您可以從維護主控台重新啟動Unified Manager虛擬機器（VM
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您也可以使用VMware *重新啟動客戶*選項、從vSphere重新啟動虛擬機器。
 
 
 
+[[steps]]
 == 步驟
 
 . 在維護主控台中、選取*系統組態*>*重新開機虛擬機器*。
@@ -37,4 +40,4 @@ summary: 您可以從維護主控台重新啟動Unified Manager虛擬機器（VM
 
 *相關資訊*
 
-https://www.vmware.com/support/developer/PowerCLI/PowerCLI41/html/Restart-VMGuest.html["VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest"]
+https://developer.broadcom.com/powercli/latest/vmware.vimautomation.core/commands/restart-vmguest["VMware vSphere PowerCLI Cmdlet參考資料：RESTL-VMGuest"^]

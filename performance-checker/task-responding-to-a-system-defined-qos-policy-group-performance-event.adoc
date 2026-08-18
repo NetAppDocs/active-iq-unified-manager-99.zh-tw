@@ -15,6 +15,7 @@ summary: 當工作負載處理量（IOPS、IOPS/TB或MBps）超過定義ONTAP �
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -23,6 +24,7 @@ summary: 當工作負載處理量（IOPS、IOPS/TB或MBps）超過定義ONTAP �
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 當工作負載處理量在前一小時的每個效能收集期間超過定義的QoS原則設定時、Unified Manager會針對QoS原則外洩事件產生警告事件。在每個收集期間、工作負載處理量可能只會在短時間內超過QoS臨界值、但Unified Manager只會在圖表上顯示收集期間的「平均」處理量。因此、您可能會收到QoS事件、但工作負載的處理量可能未超過圖表中所示的原則臨界值。
@@ -38,6 +40,7 @@ summary: 當工作負載處理量（IOPS、IOPS/TB或MBps）超過定義ONTAP �
 
 
 
+[[steps]]
 == 步驟
 
 . 顯示「*事件*」詳細資料頁面、以檢視有關事件的資訊。

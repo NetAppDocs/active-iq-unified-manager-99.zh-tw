@@ -15,6 +15,7 @@ summary: 部署Unified Manager包括下載軟體、部署虛擬應用裝置、�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您應該驗證並完成部署的系統需求。
@@ -34,6 +35,7 @@ xref:concept-requirements-for-installing-unified-manager.adoc[系統需求]
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可以將Unified Manager部署為VMware ESXi伺服器上的虛擬應用裝置。
@@ -47,6 +49,7 @@ xref:concept-requirements-for-installing-unified-manager.adoc[系統需求]
 ====
 
 
+[[after-you-finish]]
 == 完成後
 
 完成部署和初始設定之後、您可以新增叢集、或在維護主控台設定其他網路設定、然後存取Web UI。

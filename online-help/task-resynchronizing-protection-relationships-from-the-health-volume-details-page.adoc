@@ -15,6 +15,7 @@ summary: 您可以重新同步發生SnapVault 中斷的SnapMirror或SnapMirror�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以重新同步發生SnapVault 中斷的SnapMirror或SnapMirror�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、找出您要重新同步的保護關係、然後在該關係上按一下滑鼠右鍵。

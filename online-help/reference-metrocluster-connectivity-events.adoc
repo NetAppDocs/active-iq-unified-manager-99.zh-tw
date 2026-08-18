@@ -15,6 +15,7 @@ summary: 連線事件可讓您瞭解叢集元件之間的連線、MetroCluster �
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 |===

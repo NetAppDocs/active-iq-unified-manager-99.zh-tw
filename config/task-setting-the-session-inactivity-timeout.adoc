@@ -15,12 +15,14 @@ summary: 您可以指定Unified Manager的閒置逾時值、以便在一段時�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 此設定會影響所有登入的使用者工作階段。
@@ -32,6 +34,7 @@ summary: 您可以指定Unified Manager的閒置逾時值、以便在一段時�
 ====
 
 
+[[steps]]
 == 步驟
 
 . 在左側導覽窗格中、按一下*一般*>*功能設定*。

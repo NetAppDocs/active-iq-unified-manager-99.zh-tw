@@ -15,12 +15,14 @@ summary: 您可以使用「叢集設定」頁面、從Unified Manager移除叢�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色或儲存管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 此工作會從Unified Manager移除所選的叢集。移除叢集之後、就不再受到監控。向移除叢集登錄的Unified Manager執行個體也會從叢集取消登錄。
@@ -29,6 +31,7 @@ summary: 您可以使用「叢集設定」頁面、從Unified Manager移除叢�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。

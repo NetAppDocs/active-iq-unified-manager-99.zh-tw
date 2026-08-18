@@ -249,6 +249,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-capacity]]
 == 影響領域：容量
 
 |===
@@ -345,6 +346,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 |===
@@ -659,6 +661,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 |===
@@ -795,6 +798,7 @@ NVMe寬限期已過期*（nvmfGracePeriodExpired）
 |===
 
 
+[[impact-area-security]]
 == 影響領域：安全性
 
 |===

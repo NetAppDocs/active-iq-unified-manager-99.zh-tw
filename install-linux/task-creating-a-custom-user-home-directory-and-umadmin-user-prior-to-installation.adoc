@@ -15,6 +15,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 系統必須符合中所述的要求 xref:concept-virtual-infrastructure-or-hardware-system-requirements.adoc[硬體系統需求]。
@@ -23,6 +24,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 預設的Unified Manager安裝會執行下列工作：
@@ -43,6 +45,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 
 
 
+[[steps]]
 == 步驟
 
 . 以root使用者身分登入伺服器。
@@ -56,6 +59,7 @@ summary: 您可以建立自訂主目錄、並在安裝Unified Manager之前定�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 安裝Unified Manager之後、您必須指定umadmin使用者登入Shell。

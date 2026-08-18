@@ -15,12 +15,14 @@ summary: 如果您想要變更Active IQ Unified Manager 您的支援系統的備
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 
 
 
+[[steps]]
 == 步驟
 
 . 存取維護主控台。

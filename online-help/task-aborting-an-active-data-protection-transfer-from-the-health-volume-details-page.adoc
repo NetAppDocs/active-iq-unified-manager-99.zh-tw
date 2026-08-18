@@ -15,6 +15,7 @@ summary: 當您想要停止進行中的SnapMirror複寫時、可以中止作用�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 當您想要停止進行中的SnapMirror複寫時、可以中止作用�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 下列情況不會顯示中止動作：
@@ -35,6 +37,7 @@ summary: 當您想要停止進行中的SnapMirror複寫時、可以中止作用�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、在拓撲檢視中、以滑鼠右鍵按一下您要中止的資料傳輸關係、然後選取「* Abort*」。

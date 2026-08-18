@@ -15,6 +15,7 @@ summary: 如果Unified Manager使用者介面無法運作、或是您需要執�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須是維護使用者。
@@ -23,6 +24,7 @@ summary: 如果Unified Manager使用者介面無法運作、或是您需要執�
 
 
 
+[[steps]]
 == 步驟
 
 . 在vSphere Client中、找出Unified Manager虛擬應用裝置。

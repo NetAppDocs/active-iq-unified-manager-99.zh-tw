@@ -15,6 +15,7 @@ summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -22,12 +23,14 @@ summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 請使用下列步驟、根據傳輸大小建立Volume傳輸的自訂檢視、然後排程要為該檢視產生的報告。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下「*儲存設備*>*磁碟區*」。
@@ -43,6 +46,7 @@ summary: 您可以建立報告、根據傳輸大小來檢視Volume Transfers。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 根據報告中顯示的結果、您可以根據傳輸大小來調查磁碟區關係。

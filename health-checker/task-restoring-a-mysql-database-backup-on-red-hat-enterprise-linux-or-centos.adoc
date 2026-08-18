@@ -15,6 +15,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須擁有安裝Unified Manager的Linux主機的root使用者認證資料。
@@ -28,6 +29,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 還原功能是針對平台和版本而設計。您只能在相同版本的Unified Manager上還原Unified Manager備份。您可以將Linux備份檔案或虛擬應用裝置備份檔案還原至Red Hat Enterprise Linux或CentOS系統。
@@ -39,6 +41,7 @@ summary: 如果發生資料遺失或資料毀損、您可以將Unified Manager�
 ====
 
 
+[[steps]]
 == 步驟
 
 . 如果您要在新伺服器上執行還原、安裝Unified Manager之後、安裝完成後、不會啟動UI或設定任何叢集、使用者或驗證設定。備份檔案會在還原程序期間填入此資訊。
@@ -60,6 +63,7 @@ Bundle to restore from: /data/ocum-backup/UM_9.8.N151113.1348_backup_rhel_02-20-
 
 
 
+[[after-you-finish]]
 == 完成後
 
 還原備份之後、如果OnCommand Workflow Automation 無法使用此伺服器、請執行下列步驟：

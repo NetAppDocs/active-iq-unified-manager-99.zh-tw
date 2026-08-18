@@ -15,6 +15,7 @@ Create Storage Virtual Machine對等端點精靈可讓合作夥伴保護應用�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您正在關聯的儲存VM必須已經存在。
@@ -23,6 +24,7 @@ Create Storage Virtual Machine對等端點精靈可讓合作夥伴保護應用�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 對於任何來源儲存VM和關係類型、您只能在每個目的地叢集上選擇一個目的地儲存VM。
@@ -31,6 +33,7 @@ Create Storage Virtual Machine對等端點精靈可讓合作夥伴保護應用�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下* Protection（保護）*** Storage VM對等端點*。

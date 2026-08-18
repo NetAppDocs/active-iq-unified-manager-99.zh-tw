@@ -15,6 +15,7 @@ summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 必須將本地叢集和遠端叢集MetroCluster 的支援功能新增至Active IQ Unified Manager 支援功能。
@@ -23,6 +24,7 @@ summary: 您可以監控MetroCluster 使用您的功能性組態的連線問題�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可以使用叢集/健全狀況詳細資料頁面中顯示的資訊來修正任何連線問題。例如、如果叢集中節點與交換器之間的連線中斷、則會顯示下列圖示：
@@ -37,6 +39,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下「*儲存設備*>*叢集*」。
@@ -52,6 +55,7 @@ Unified Manager會使用系統健全狀況警示來監控MetroCluster 元件的�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 如果MetroCluster 發現在您的資訊功能組態中有連線問題、您必須登入System Manager或存取ONTAP 該CLI來解決問題。

@@ -15,6 +15,7 @@ Aggregate事件可提供有關Aggregate狀態的資訊、以便監控潛在問�
 
 
 
+[[impact-area-availability]]
 == 影響領域：可用度
 
 星號（*）表示已轉換為Unified Manager事件的EMS事件。
@@ -146,6 +147,7 @@ Aggregate
 |===
 
 
+[[impact-area-capacity]]
 == 影響領域：容量
 
 [cols="4*"]
@@ -231,6 +233,7 @@ Aggregate
 |===
 
 
+[[impact-area-configuration]]
 == 影響領域：組態
 
 [cols="4*"]
@@ -272,6 +275,7 @@ Aggregate
 |===
 
 
+[[impact-area-performance]]
 == 影響領域：效能
 
 [cols="4*"]

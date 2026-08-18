@@ -15,6 +15,7 @@ summary: 您可以在SnapMirror關係中中斷保護關係、以停止來源磁�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -23,6 +24,7 @@ summary: 您可以在SnapMirror關係中中斷保護關係、以停止來源磁�
 
 
 
+[[steps]]
 == 步驟
 
 . 從「* Volume Relationationation*」頁面中、選取一個或多個具有保護關係的磁碟區、以停止資料傳輸、然後在工具列上按一下「*中斷*」。

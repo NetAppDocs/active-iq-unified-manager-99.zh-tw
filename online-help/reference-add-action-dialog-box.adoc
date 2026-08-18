@@ -38,6 +38,7 @@ Unified Manager目前僅支援Volume臨界值動作類型。
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 * *新增*

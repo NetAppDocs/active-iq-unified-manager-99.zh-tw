@@ -15,6 +15,7 @@ summary: 功能表列中的通知警示\（\）可快速檢視Unified Manager正
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 作用中事件清單可讓您查看所有叢集上的關鍵、錯誤、警告和升級事件總數。此清單包含過去7天的事件、不含資訊事件。您可以按一下連結、顯示您最感興趣的事件清單。
@@ -23,6 +24,7 @@ summary: 功能表列中的通知警示\（\）可快速檢視Unified Manager正
 
 
 
+[[steps]]
 == 步驟
 
 . 在功能表列中、按一下 image:../media/notification-bell.png[""]。

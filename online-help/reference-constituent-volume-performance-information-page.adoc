@@ -15,6 +15,7 @@ summary: 使用「組成Volume /效能資訊」頁面、檢視FlexGroup 組成Vo
 
 
 
+[[constituent-volume-attributes]]
 == 組成Volume屬性
 
 * *類型*

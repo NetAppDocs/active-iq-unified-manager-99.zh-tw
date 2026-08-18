@@ -17,6 +17,7 @@ summary: 「叢集設定」頁面會顯示Unified Manager目前正在監控之�
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 * *新增*
@@ -45,6 +46,7 @@ summary: 「叢集設定」頁面會顯示Unified Manager目前正在監控之�
 
 
 
+[[clusters-list]]
 == 叢集清單
 
 叢集清單會顯示所有探索到的叢集內容。您可以按一下欄標題、依該欄排序叢集。

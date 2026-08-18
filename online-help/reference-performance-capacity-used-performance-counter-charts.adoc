@@ -23,6 +23,7 @@ summary: 「使用的效能容量」計數器圖表會顯示節點或Aggregate�
 
 
 
+[[performance-capacity-used-total-counter-chart]]
 == 使用的效能容量-總計對照表
 
 顯示節點或Aggregate正在使用的效能容量百分比。
@@ -43,12 +44,14 @@ summary: 「使用的效能容量」計數器圖表會顯示節點或Aggregate�
 
 
 
+[[performance-capacity-used-breakdown-counter-chart]]
 == 使用的效能容量-明細計數器圖表
 
 顯示與使用者傳輸協定、系統背景處理程序及可用效能容量相同的效能容量百分比。
 
 
 
+[[zoom-view-button]]
 == *縮放檢視*按鈕
 
 顯示計數器圖表資料的放大檢視。

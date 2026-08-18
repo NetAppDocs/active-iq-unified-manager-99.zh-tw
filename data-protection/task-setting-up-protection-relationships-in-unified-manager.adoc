@@ -15,6 +15,7 @@ summary: 您必須執行幾個步驟、才能使用Unified Manager和OnCommand W
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -29,6 +30,7 @@ summary: 您必須執行幾個步驟、才能使用Unified Manager和OnCommand W
 
 
 
+[[steps]]
 == 步驟
 
 . 視您要建立的保護關係類型而定、請執行下列其中一項：

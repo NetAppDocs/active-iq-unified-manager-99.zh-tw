@@ -15,6 +15,7 @@ summary: 您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您應該擁有用於存取VMware vCenter Server和vSphere Web Client的認證資料。
@@ -24,6 +25,7 @@ summary: 您可以移除安裝Unified Manager軟體的虛擬機器（VM）、以
 
 
 
+[[steps]]
 == 步驟
 
 . 使用Unified Manager維護主控台、確認Unified Manager伺服器沒有與外部資料供應商的作用中連線。

@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager來協助識別不同HA配對中節點上
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -26,6 +27,7 @@ summary: 您可以使用Unified Manager來協助識別不同HA配對中節點上
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 這些步驟可協助您識別下列資源、以便將高效能工作負載移至不同HA配對中使用率較低的節點：
@@ -37,6 +39,7 @@ summary: 您可以使用Unified Manager來協助識別不同HA配對中節點上
 
 
 
+[[steps]]
 == 步驟
 
 . 識別屬於同一叢集上不同HA配對的節點：
@@ -101,6 +104,7 @@ summary: 您可以使用Unified Manager來協助識別不同HA配對中節點上
 
 
 
+[[after-you-finish]]
 == 完成後
 
 幾天後、檢查您是否從這個節點或Aggregate收到相同類型的事件。

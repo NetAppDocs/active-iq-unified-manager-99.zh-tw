@@ -21,6 +21,7 @@ summary: 您可以設定警示、以便在產生與qtree容量相關的事件時
 
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列qtree容量臨界值條件：
@@ -43,6 +44,7 @@ summary: 您可以設定警示、以便在產生與qtree容量相關的事件時
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您針對選取的qtree執行下列工作：

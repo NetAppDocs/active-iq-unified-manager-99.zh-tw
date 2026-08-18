@@ -15,12 +15,14 @@ summary: 首次安裝時、會安裝預設的HTTPS憑證。Active IQ Unified Man
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 重新產生憑證可能有多種原因、例如您想要擁有更好的辨別名稱（DN）值、或是想要較高的金鑰大小、或是較長的過期期間、或是目前的憑證已過期。
@@ -29,6 +31,7 @@ summary: 首次安裝時、會安裝預設的HTTPS憑證。Active IQ Unified Man
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*一般*>* HTTPS憑證*。
@@ -75,6 +78,7 @@ summary: 首次安裝時、會安裝預設的HTTPS憑證。Active IQ Unified Man
 
 
 
+[[after-you-finish]]
 == 完成後
 
 檢視HTTPS憑證來驗證新的憑證資訊。

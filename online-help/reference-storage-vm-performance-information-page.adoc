@@ -15,6 +15,7 @@ summary: 使用「Storage VM/Performance Information」（儲存VM/效能資訊�
 
 
 
+[[storage-vm-attributes]]
 == 儲存VM屬性
 
 * * IP位址*

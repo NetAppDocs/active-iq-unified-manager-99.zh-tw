@@ -15,18 +15,21 @@ summary: 您可以使用Unified Manager Web UI來確認或消除磁碟區離線�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 若要判斷磁碟區離線狀況是否是由使託管Aggregate離線的RAID磁碟問題所造成、請執行下列動作：
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*詳細資料」頁面的「* Related Devices*」（*相關裝置*）窗格中、找到並按一下Aggregate下方顯示的超文字連結。
@@ -46,6 +49,7 @@ Aggregate / Health詳細資料頁面會顯示主機Aggregate的線上或離線�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 在確認磁碟區離線狀況是由毀損的RAID磁碟及其後的離線主機Aggregate所造成之後、請聯絡適當的管理員或操作員、手動更換毀損的磁碟、並將Aggregate重新連線。

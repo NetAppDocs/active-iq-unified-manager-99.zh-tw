@@ -15,12 +15,14 @@ summary: 效能統計資料的預設收集時間間隔為5分鐘。如果發現�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 橫幅訊息會指出效能統計資料收集未準時完成的問題 `Unable to consistently collect from cluster <cluster_name>` 或 `Data collection is taking too long on cluster <cluster_name>`。
@@ -36,6 +38,7 @@ summary: 效能統計資料的預設收集時間間隔為5分鐘。如果發現�
 
 
 
+[[steps]]
 == 步驟
 
 . 以SSH作為維護使用者登入Unified Manager主機。
@@ -49,6 +52,7 @@ summary: 效能統計資料的預設收集時間間隔為5分鐘。如果發現�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 如果您將Unified Manager收集時間間隔變更為10或15分鐘、且目前連線至外部資料供應商（例如Graphite）、則必須變更資料供應商傳輸時間間隔、使其等於或大於Unified Manager收集時間間隔。

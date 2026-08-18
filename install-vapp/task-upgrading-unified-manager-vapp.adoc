@@ -15,6 +15,7 @@ summary: 您只能從9.7或9.8的執行個體升級至Unified Manager 9.9。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。

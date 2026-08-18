@@ -15,6 +15,7 @@ summary: 您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 叢集、儲存VM和Volume必須符合下列需求：
@@ -53,6 +54,7 @@ summary: 您可以使用ONTAP 下列方法設定將Snapshot備份儲存在任一
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 如需建立NFS Volume的詳細步驟、請參閱 https://kb.netapp.com/Advice_and_Troubleshooting/Data_Storage_Software/ONTAP_OS/How_to_configure_NFSv4_in_Cluster-Mode["如何在ONTAP S19中設定NFSv4"] 和 http://docs.netapp.com/ontap-9/topic/com.netapp.doc.exp-nfsv3-cg/home.html["《S9 NFS組態快速指南》ONTAP"]。

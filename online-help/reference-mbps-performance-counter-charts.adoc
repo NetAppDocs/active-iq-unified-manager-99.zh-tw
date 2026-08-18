@@ -25,12 +25,14 @@ MB/s計數器圖表會顯示每秒從所選物件傳輸的資料MB數。
 
 
 
+[[mbs-total-counter-chart]]
 == MB/s -總計計數器圖表
 
 顯示每秒從所選物件傳輸的資料MB數。
 
 
 
+[[mbs-breakdown-counter-chart]]
 == MB/s -明細計數器圖表
 
 顯示與磁碟讀取、快閃快取讀取、寫入及其他作業分隔開的相同MB/s資料。
@@ -44,6 +46,7 @@ Flash Cache資料僅會針對節點顯示、而且只有在節點中安裝Flash 
 ====
 
 
+[[zoom-view-button]]
 == *縮放檢視*按鈕
 
 顯示計數器圖表資料的放大檢視。

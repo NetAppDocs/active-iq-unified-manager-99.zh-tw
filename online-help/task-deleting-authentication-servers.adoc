@@ -15,18 +15,21 @@ summary: 如果您想要防止Unified Manager伺服器與驗證伺服器通訊�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 刪除驗證伺服器時、驗證伺服器的遠端使用者或群組將無法再存取Unified Manager。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*一般*>*遠端驗證*。

@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager來分析MetroCluster 遠端叢集上的�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -24,6 +25,7 @@ summary: 您可以使用Unified Manager來分析MetroCluster 遠端叢集上的�
 
 
 
+[[steps]]
 == 步驟
 
 . 登入監控合作夥伴叢集的Unified Manager執行個體。

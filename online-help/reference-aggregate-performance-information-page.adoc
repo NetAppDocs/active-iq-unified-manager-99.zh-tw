@@ -15,6 +15,7 @@ summary: 使用Aggregate / Performance Information（集合體/效能資訊）�
 
 
 
+[[aggregate-attributes]]
 == Aggregate屬性
 
 * *類型*

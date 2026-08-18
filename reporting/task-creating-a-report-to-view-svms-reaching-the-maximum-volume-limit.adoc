@@ -15,6 +15,7 @@ summary: 您可以建立報告、找出達到最大Volume限制的SVM。
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -22,12 +23,14 @@ summary: 您可以建立報告、找出達到最大Volume限制的SVM。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 請使用下列步驟建立自訂檢視、以顯示達到最大Volume限制的儲存VM、然後排程為該檢視產生報告。
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下* Storage *>* Storage VMS*。
@@ -45,6 +48,7 @@ summary: 您可以建立報告、找出達到最大Volume限制的SVM。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 根據報告中顯示的結果、您可能想要平衡指派給儲存VM的磁碟區、或是使用ONTAP 「支援系統管理程式」來變更允許的最大磁碟區。

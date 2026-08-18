@@ -13,6 +13,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[system-requirements]]
 == 系統需求
 
 * 作業系統：Microsoft Windows Server 2016和2019 64位元標準版與資料中心版。支援下列語言：
@@ -31,10 +32,12 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[installing-active-iq-unified-manager]]
 == 安裝Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下載安裝程式
 
 . 下載 `ActiveIQUnifiedManager-<version>.exe` 安裝套件：
@@ -43,6 +46,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[install-unified-manager]]
 === 安裝Unified Manager
 
 若要安裝Unified Manager、請確定您已安裝Microsoft .NET 4.5.2或更新版本。在安裝程序中、Unified Manager會視需要安裝其他協力廠商套件。如需相依軟體套件的詳細資訊、請參閱 link:./install-windows/reference-windows-software-and-installation-requirements.html["Windows軟體與安裝需求"]。

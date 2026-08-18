@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot備份�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -23,6 +24,7 @@ summary: 您可以使用Unified Manager UI設定Unified Manager Snapshot備份�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定幾秒鐘。
@@ -34,6 +36,7 @@ Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定
 ====
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*一般*>*資料庫備份*。
@@ -48,12 +51,14 @@ Snapshot備份只需幾分鐘就能建立、Unified Manager資料庫只會鎖定
 
 
 
+[[results]]
 == 結果
 
 Snapshot備份檔案是根據排程建立。您可以在「資料庫備份」頁面中看到可用的備份檔案。
 
 
 
+[[after-you-finish]]
 == 完成後
 
 由於此磁碟區和快照的重要性、您可能需要為此磁碟區建立一或兩個警示、以便在下列情況下通知您：

@@ -15,6 +15,7 @@ summary: 您可以在Red Hat平台上下載並執行安裝檔案、從Unified Ma
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您要升級Unified Manager的系統必須符合系統和軟體需求。
@@ -40,6 +41,7 @@ xref:task-upgrading-openjdk-on-linux-ocum.adoc[升級Linux上的JRE]
 
 
 
+[[steps]]
 == 步驟
 
 . 登入目標Red Hat Enterprise Linux或CentOS伺服器。
@@ -99,6 +101,7 @@ https://fully_qualified_domain_name/
 
 
 
+[[after-you-finish]]
 == 完成後
 
 在支援的網頁瀏覽器中輸入指定的IP位址或URL、以啟動Unified Manager網路UI、然後使用您先前設定的相同維護使用者名稱（umadmin）和密碼登入。

@@ -15,6 +15,7 @@ summary: 您可以排程在舊版Unified Manager中建立和匯入的現有報�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 排程匯入的報告需要下列項目：
@@ -27,6 +28,7 @@ summary: 您可以排程在舊版Unified Manager中建立和匯入的現有報�
 
 
 
+[[steps]]
 == 步驟
 
 . 開啟「*報告排程*」頁面。如果您已匯入報告、則會出現訊息。

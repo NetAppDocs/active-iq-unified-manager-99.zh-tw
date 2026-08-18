@@ -21,6 +21,7 @@ summary: 「關係臨界值」頁面可讓您設定未受管理保護關係的�
 
 
 
+[[lag-thresholds-for-unmanaged-relationships-area]]
 == 「非託管關係」區域的延遲臨界值
 
 您可以在「延遲區域」中設定下列條件的非託管關係延遲臨界值：

@@ -15,6 +15,7 @@ summary: 您可以使用Unified Manager來協助識別不同節點上的Aggregat
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有「操作員」、「應用程式管理員」或「儲存管理員」角色。
@@ -25,6 +26,7 @@ summary: 您可以使用Unified Manager來協助識別不同節點上的Aggregat
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 這些步驟可協助您識別下列資源、以便將高效能工作負載移至使用率較低的節點：
@@ -36,6 +38,7 @@ summary: 您可以使用Unified Manager來協助識別不同節點上的Aggregat
 
 
 
+[[steps]]
 == 步驟
 
 . 識別叢集中使用率最低的節點：
@@ -94,6 +97,7 @@ summary: 您可以使用Unified Manager來協助識別不同節點上的Aggregat
 
 
 
+[[after-you-finish]]
 == 完成後
 
 幾天後、檢查您是否從這個節點或Aggregate收到相同類型的事件。

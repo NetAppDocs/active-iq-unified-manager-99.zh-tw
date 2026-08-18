@@ -15,6 +15,7 @@ summary: 安裝Unified Manager之後、您可以存取Web UI來設定Unified Man
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 如果這是您第一次存取Web UI、則必須以維護使用者（或Linux安裝的umadmin使用者）的身分登入。
@@ -24,6 +25,7 @@ summary: 安裝Unified Manager之後、您可以存取Web UI來設定Unified Man
 
 
 
+[[steps]]
 == 步驟
 
 . 使用安裝結束時顯示的URL、從瀏覽器啟動Unified Manager Web UI。URL是Unified Manager伺服器的IP位址或完整網域名稱（FQDN）。

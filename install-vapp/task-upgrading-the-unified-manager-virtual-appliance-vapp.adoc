@@ -15,6 +15,7 @@ summary: 您可以將Unified Manager虛擬應用裝置從9.7版和9.8版升級�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 請確認下列事項：
@@ -40,6 +41,7 @@ xref:reference-vmware-software-and-installation-requirements.adoc[VMware軟體�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 在升級過程中、Unified Manager無法使用。升級Unified Manager之前、您應該先完成所有執行中的作業。
@@ -48,6 +50,7 @@ xref:reference-vmware-software-and-installation-requirements.adoc[VMware軟體�
 
 
 
+[[steps]]
 == 步驟
 
 . 在vSphere Client中、按一下*首頁*>*詳細目錄*>*虛擬機器與範本*。
@@ -81,6 +84,7 @@ xref:reference-vmware-software-and-installation-requirements.adoc[VMware軟體�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 您可以登入Web UI、以使用升級版的Unified Manager。請注意、您必須等待探索程序完成、才能在UI中執行任何工作。

@@ -15,6 +15,7 @@ summary: 您可以使用版本彈性複寫來建立SnapMirror關係。靈活版�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -25,12 +26,14 @@ summary: 您可以使用版本彈性複寫來建立SnapMirror關係。靈活版�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 SnapMirror搭配版本靈活的複寫功能、即使是在異質儲存環境中、也能實作SnapMirror保護功能、因為在異質儲存環境中、並非所有儲存設備都在同一個ONTAP 版本的SnapMirror下執行；不過、在SnapMirror下執行版本靈活複寫的鏡射作業、並不會像傳統區塊複寫SnapMirror一樣快速執行。
 
 
 
+[[steps]]
 == 步驟
 
 . 顯示您要保護的磁碟區的*組態保護*對話方塊。

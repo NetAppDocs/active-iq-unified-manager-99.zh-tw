@@ -23,6 +23,7 @@ summary: 「Aggregate臨界值」頁面可讓您設定受監控之Aggregate的�
 
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列Aggregate容量臨界值條件。請注意、如果在位於集合體上的磁碟區上啟用「自動擴充」、則會根據自動擴充所設定的最大磁碟區大小（而非原始磁碟區大小）、將Aggregate容量臨界值視為違反。
@@ -87,6 +88,7 @@ summary: 「Aggregate臨界值」頁面可讓您設定受監控之Aggregate的�
 
 
 
+[[growth-area]]
 == 成長領域
 
 成長區可讓您設定下列臨界值條件、以利集合體成長：
@@ -122,6 +124,7 @@ summary: 「Aggregate臨界值」頁面可讓您設定受監控之Aggregate的�
 
 
 
+[[snapshot-copies-area]]
 == Snapshot複本區域
 
 Snapshot Copies區域可讓您設定下列Snapshot Reserve臨界值條件：

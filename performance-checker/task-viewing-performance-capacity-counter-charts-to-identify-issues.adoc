@@ -15,6 +15,7 @@ summary: 您可以在「Performance Explorer」頁面上檢視節點和集合體
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 標準計數器圖表會顯示所選節點或集合體所使用的效能容量值。明細計數器圖表會根據使用者傳輸協定與背景系統處理程序、顯示將根物件分隔成使用量的總效能容量值。此外、還會顯示可用效能容量。
@@ -26,6 +27,7 @@ summary: 您可以在「Performance Explorer」頁面上檢視節點和集合體
 ====
 
 
+[[steps]]
 == 步驟
 
 . 從節點或Aggregate * Landing（*登陸*）頁面選取* Explorer's（*檔案總管）索引標籤。

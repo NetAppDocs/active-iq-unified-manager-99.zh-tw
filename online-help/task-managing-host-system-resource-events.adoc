@@ -15,6 +15,7 @@ Unified Manager包含一項服務、可監控安裝Unified Manager的主機系�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 Management Station事件表示安裝Unified Manager的主機系統發生問題。管理站台問題的範例包括主機系統上的磁碟空間不足、Unified Manager缺少正常的資料收集週期、以及因下一次收集輪詢而無法完成或延遲完成統計分析。
@@ -23,6 +24,7 @@ Management Station事件表示安裝Unified Manager的主機系統發生問題�
 
 
 
+[[steps]]
 == 步驟
 
 . 若要檢視Management Station事件資訊、請執行下列動作：

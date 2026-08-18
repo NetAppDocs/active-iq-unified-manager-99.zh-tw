@@ -15,6 +15,7 @@ summary: 您可以安裝Unified Manager來監控和疑難排解資料儲存容�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您打算安裝Unified Manager的系統應符合系統和軟體需求。
@@ -41,6 +42,7 @@ xref:reference-windows-software-and-installation-requirements.adoc[Windows軟體
 
 
 
+[[steps]]
 == 步驟
 
 . 使用預設的本機系統管理員帳戶登入Windows。
@@ -66,6 +68,7 @@ Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出�
 
 
 
+[[results]]
 == 結果
 
 安裝會建立多個目錄：
@@ -90,6 +93,7 @@ Unified Manager會偵測遺失或預先安裝的協力廠商套件、並列出�
 
 
 
+[[after-you-finish]]
 == 完成後
 
 您可以存取Web UI來執行Unified Manager的初始設定、如所述 link:../config/task-using-the-maintenance-console.html["使用維護主控台"]。

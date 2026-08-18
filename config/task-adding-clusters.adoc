@@ -15,6 +15,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -53,6 +54,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 若要進行支援、您必須同時新增本機和遠端叢集、而且叢集必須正確設定。MetroCluster
@@ -61,6 +63,7 @@ summary: 您可以將叢集新增Active IQ Unified Manager 至支援功能、以
 
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*儲存管理*>*叢集設定*。
@@ -79,6 +82,7 @@ Unified Manager只會在一開始新增叢集時檢查憑證。Unified Manager�
 
 
 
+[[results]]
 == 結果
 
 在探索新叢集的所有物件（約15分鐘）之後、Unified Manager會開始收集前15天的歷史效能資料。這些統計資料是使用資料持續性收集功能來收集。此功能可在新增叢集之後、立即為叢集提供超過兩週的效能資訊。在資料持續性收集週期完成之後、系統會依預設每五分鐘收集一次即時叢集效能資料。

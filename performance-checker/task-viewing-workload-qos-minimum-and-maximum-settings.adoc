@@ -15,6 +15,7 @@ summary: 您可以在Performance Explorer圖表中檢視Volume或LUN上ONTAP定�
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 QoS處理量「最小」和「最大」IOPS和MB/s設定只有在ONTAP 進行了以供選擇的情況下、才會顯示在計數器圖表中。處理量下限設定僅適用於執行ONTAP 不含更新版本的系統、僅AFF 適用於某些作業系統、目前只能針對IOPS進行設定。
@@ -25,6 +26,7 @@ QoS處理量「最小」和「最大」IOPS和MB/s設定只有在ONTAP 進行了
 
 
 
+[[steps]]
 == 步驟
 
 . 在所選磁碟區或LUN的「*效能檔案總管*」頁面中、執行下列動作以檢視QoS上限和樓層設定：
@@ -76,6 +78,7 @@ QoS處理量「最小」和「最大」IOPS和MB/s設定只有在ONTAP 進行了
 
 
 
+[[after-you-finish]]
 == 完成後
 
 如果您注意到某些磁碟區或LUN的IOPS或MB/s非常高、並在強調系統資源、您可以使用System Manager或ONTAP CLI來調整QoS設定、使這些工作負載不會影響其他工作負載的效能。

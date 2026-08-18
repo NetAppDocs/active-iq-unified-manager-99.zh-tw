@@ -15,12 +15,14 @@ summary: 您可以使用「Volume / Health」（磁碟區/健全狀況）詳細�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須具有應用程式管理員或儲存管理員角色。
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您無法還原NTFS檔案串流。
@@ -33,6 +35,7 @@ summary: 您可以使用「Volume / Health」（磁碟區/健全狀況）詳細�
 
 
 
+[[steps]]
 == 步驟
 
 . 在「* Volume / Health*詳細資料」頁面的「* Protection *」索引標籤中、在拓撲檢視中按一下滑鼠右鍵、即可看到您要還原的磁碟區名稱。

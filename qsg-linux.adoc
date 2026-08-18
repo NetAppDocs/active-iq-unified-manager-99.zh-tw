@@ -13,6 +13,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[system-requirements]]
 == 系統需求
 
 * 作業系統：Red Hat Enterprise Linux和CentOS 7.x與8.x版、以x86_64架構為基礎、安裝時使用OS安裝程式「軟體選擇」選項中的「伺服器搭配GUI」基礎環境
@@ -24,10 +25,12 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[installing-active-iq-unified-manager]]
 == 安裝Active IQ Unified Manager
 
 
 
+[[download-the-installer]]
 === 下載安裝程式
 
 . 下載 `ActiveIQUnifiedManager-<version>.zip` 安裝套件：
@@ -38,6 +41,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[verify-repository-configuration]]
 === 驗證儲存庫組態
 
 設定Red Hat Enterprise Linux或CentOS儲存庫的程序是站台專屬的。您可以使用 `pre_install_check.sh` 安裝套件中隨附的指令碼、用於驗證作業系統的組態。如果您的系統已連線至網際網路、您會自動收到設定Red Hat Enterprise Linux或CentOS儲存庫的指示。
@@ -46,6 +50,7 @@ summary: Linux平台上的Unified Manager快速入門指南。
 
 
 
+[[install-unified-manager]]
 === 安裝Unified Manager
 
 Unified Manager使用 `yum` 安裝軟體及任何相依軟體的公用程式。由於Red Hat Enterprise Linux或CentOS的映像各不相同、因此安裝的套件取決於映像中的軟體。。 `yum` 公用程式會決定要安裝的相依軟體套件。如果您需要有關相依軟體套件的詳細資訊、請參閱 link:./install-linux/reference-red-hat-and-centos-software-and-installation-requirements.html["Linux軟體與安裝需求"]。

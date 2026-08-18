@@ -15,6 +15,7 @@ summary: 管理伺服器類別下的事件和系統API可讓您擷取資料中�
 
 
 
+[[viewing-events]]
 == 檢視事件
 
 使用 `/management-server/events` API、您可以查詢資料中心內的事件、包括歷史資料。使用內建的篩選器、例如名稱、影響層級、影響區域、嚴重性、狀態、資源名稱和資源類型、以檢視特定事件。資源類型和區域參數會傳回事件發生所在儲存物件的相關資訊、而影響區域會傳回事件發生問題的相關資訊、例如可用度、容量、組態、安全性、保護與效能：
@@ -49,6 +50,7 @@ summary: 管理伺服器類別下的事件和系統API可讓您擷取資料中�
 |===
 
 
+[[viewing-system-details]]
 == 檢視系統詳細資料
 
 使用 `/management-server/system` API、您可以查詢Unified Manager環境的執行個體專屬詳細資料。API會傳回產品與服務的相關資訊、例如系統上安裝的Unified Manager版本、UUID、廠商名稱、主機作業系統及名稱、 說明、以及Unified Manager執行個體上執行的服務狀態。

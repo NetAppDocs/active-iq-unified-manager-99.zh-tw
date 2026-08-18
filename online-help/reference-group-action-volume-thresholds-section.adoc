@@ -33,6 +33,7 @@ summary: 「群組動作磁碟區臨界值」區段可讓您設定磁碟區的�
 
 
 
+[[capacity-section]]
 == 容量區段
 
 您可以設定下列Volume容量健全狀況臨界值的條件：
@@ -74,6 +75,7 @@ summary: 「群組動作磁碟區臨界值」區段可讓您設定磁碟區的�
 
 
 
+[[growth-section]]
 == 成長區段
 
 您可以針對Volume成長設定下列健全狀況臨界值條件：
@@ -103,6 +105,7 @@ summary: 「群組動作磁碟區臨界值」區段可讓您設定磁碟區的�
 
 
 
+[[qtree-quota-section]]
 == qtree配額區段
 
 您可以設定磁碟區配額的下列健全狀況臨界值條件：
@@ -131,6 +134,7 @@ summary: 「群組動作磁碟區臨界值」區段可讓您設定磁碟區的�
 
 
 
+[[snapshot-copies-section]]
 == Snapshot Copies區段
 
 您可以為Volume中的Snapshot複本設定下列健全狀況臨界值條件：
@@ -169,6 +173,7 @@ summary: 「群組動作磁碟區臨界值」區段可讓您設定磁碟區的�
 
 
 
+[[inodes-section]]
 == inode區段
 
 您可以為inode設定下列健全狀況臨界值條件：

@@ -16,6 +16,7 @@ summary: 若要在Windows上成功安裝Unified Manager、您應確保安裝Unif
 
 
 
+[[operating-system-software]]
 == 作業系統軟體
 
 下列語言的64位元Windows作業系統支援Unified Manager：
@@ -39,6 +40,7 @@ http://mysupport.netapp.com/matrix["mysupport.netapp.com/matrix"]
 
 
 
+[[third-party-software]]
 == 第三方軟體
 
 下列協力廠商套件與Unified Manager搭售。如果您的系統未安裝這些協力廠商套件、Unified Manager會將其安裝為安裝的一部分。
@@ -78,6 +80,7 @@ Unified Manager部署在Wildfly Web伺服器上。WildFly17隨附於Unified Mana
 ====
 
 
+[[installation-requirements]]
 == 安裝需求
 
 * 應安裝Microsoft .NET 4.5.2或更新版本。

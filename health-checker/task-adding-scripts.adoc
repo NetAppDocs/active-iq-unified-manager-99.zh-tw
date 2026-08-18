@@ -15,6 +15,7 @@ summary: 您可以在Unified Manager中新增指令碼、並將指令碼與警�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須已建立並儲存要新增至Unified Manager伺服器的指令碼。
@@ -62,6 +63,7 @@ PowerShell、Perl、Python和.bat指令碼
 
 
 
+[[about-this-task]]
 == 關於這項工作
 
 您可以上傳自訂指令碼、並收集警示的事件詳細資料。
@@ -73,6 +75,7 @@ PowerShell、Perl、Python和.bat指令碼
 ====
 
 
+[[steps]]
 == 步驟
 
 . 在左導覽窗格中、按一下*儲存管理*>*指令碼*。

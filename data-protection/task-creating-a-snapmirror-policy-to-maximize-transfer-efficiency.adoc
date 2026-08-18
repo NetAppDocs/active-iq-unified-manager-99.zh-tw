@@ -15,6 +15,7 @@ summary: 您可以建立SnapMirror原則、以指定保護關係的SnapMirror傳
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 * 您必須具有應用程式管理員或儲存管理員角色。
@@ -24,6 +25,7 @@ summary: 您可以建立SnapMirror原則、以指定保護關係的SnapMirror傳
 
 
 
+[[steps]]
 == 步驟
 
 . 在「*組態保護*」對話方塊的「* SnapMirror *」索引標籤中、按一下「*關係設定*」區域中的「*建立原則*」連結。

@@ -19,6 +19,7 @@ summary: 「Qtree臨界值」頁面可讓您設定受監控qtree的全域容量�
 
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列qtree容量臨界值條件。

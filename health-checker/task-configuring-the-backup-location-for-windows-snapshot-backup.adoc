@@ -15,6 +15,7 @@ summary: 您應該設定磁碟區、以便在Active IQ Unified Manager Windows�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 叢集、儲存VM和Volume必須符合下列需求：

@@ -24,6 +24,7 @@ summary: 您可以設定警示、以便在產生與Aggregate容量相關的事�
 ====
 
 
+[[capacity-area]]
 == 容量區域
 
 「容量」區域可讓您設定下列Aggregate容量臨界值條件：
@@ -58,6 +59,7 @@ summary: 您可以設定警示、以便在產生與Aggregate容量相關的事�
 
 
 
+[[growth-area]]
 == 成長領域
 
 成長區可讓您設定下列臨界值條件、以利集合體成長：
@@ -83,6 +85,7 @@ summary: 您可以設定警示、以便在產生與Aggregate容量相關的事�
 
 
 
+[[snapshot-copies-area]]
 == Snapshot複本區域
 
 Snapshot Copies區域可讓您設定下列Snapshot Reserve臨界值條件：
@@ -98,6 +101,7 @@ Snapshot Copies區域可讓您設定下列Snapshot Reserve臨界值條件：
 
 
 
+[[command-buttons]]
 == 命令按鈕
 
 命令按鈕可讓您針對選取的Aggregate執行下列工作：

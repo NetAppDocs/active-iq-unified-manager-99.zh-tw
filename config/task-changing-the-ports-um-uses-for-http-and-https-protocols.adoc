@@ -15,6 +15,7 @@ Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝�
 
 
 
+[[before-you-begin]]
 == 開始之前
 
 您必須擁有授權使用者ID和密碼、才能登入Unified Manager伺服器的維護主控台。
@@ -26,12 +27,14 @@ Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝�
 ====
 
 
+[[about-this-task]]
 == 關於這項工作
 
 變更連接埠後、Unified Manager執行個體會自動重新啟動、因此請務必在短時間內讓系統停機。
 
 
 
+[[steps]]
 == 步驟
 
 . 以SSH作為維護使用者登入Unified Manager主機。
@@ -53,6 +56,7 @@ Unified Manager用於HTTP和HTTPS傳輸協定的預設連接埠、可在安裝�
 
 
 
+[[results]]
 == 結果
 
 變更完成後、使用者必須在URL中加入新的連接埠號碼、才能存取Unified Manager Web UI、例如+https://host.company.com:1234+、+https://12.13.14.15:1122+或+https://[2001:db8:0:1]:2123+。
